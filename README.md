@@ -4,7 +4,7 @@ Python Foundational Programming Knowledge
 A complete case Python programming tutorials which is essential to follow the actual projects in the subsequent sections
 
 ## Key Sections
-- [Chapter 1](https://github.com/fromsantanu/Basic-Python-Pg1)  : Starting concepts on Python programming.
+- [Chapter 1](https://github.com/fromsantanu/Basic-Python-Chapter-1)  : Starting concepts on Python programming.
 
 ## Watch the Intro 
 [![Watch the video](https://img.youtube.com/vi/tbd/hqdefault.jpg)](https://www.youtube.com/watch?v=tbd)
