@@ -1,6 +1,5 @@
 # Basic Python Programming 
-![HitCount](https://hits.dwyl.com/fromsantanu/BPP-Main.svg)
-
+![HitCount](https://hits.dwyl.com/fromsantanu/BPP-Main.svg) <br>
 A complete case Python programming tutorials which is essential to follow the actual projects in the subsequent sections
 
 ## Foundational Concepts
