@@ -1,7 +1,6 @@
 # Basic Python Programming 
+![HitCount](https://hits.dwyl.com/fromsantanu/BPP-Main.svg)<br>
 A complete case Python programming tutorials which is essential to follow the actual projects in the subsequent sections
-
-![HitCount](https://hits.dwyl.com/fromsantanu/BPP-Main.svg)
 ## Foundational Concepts
 - [**Chapter 01** - Data, Variables and Operators](https://github.com/fromsantanu/BPP-Main/blob/main/pages/page1.md)  : Starting concepts on Python programming.
 - [**Chapter 02** - Fundamental and Complex Data Types](https://github.com/fromsantanu/Basic-Python-Chapter-2-FundamentalAndComplexDataTypes)  : Starting concepts on Python programming.
