@@ -2,7 +2,7 @@
 ![HitCount](https://hits.dwyl.com/fromsantanu/BPP-Main.svg)<br>
 A complete case Python programming tutorials which is essential to follow the actual projects in the subsequent sections
 ## Foundational Concepts
-- [**Chapter 01** - Data, Variables and Operators](https://github.com/fromsantanu/BPP-Main/blob/main/pages/page1.md)  : Starting concepts on Python programming.
+- [**Chapter 01** - Data, Variables and Operators](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter01.md)  : Starting concepts on Python programming.
 - [**Chapter 02** - Fundamental and Complex Data Types](https://github.com/fromsantanu/Basic-Python-Chapter-2-FundamentalAndComplexDataTypes)  : Starting concepts on Python programming.
 - [**Chapter 03** - Decision Structures](https://github.com/fromsantanu/Basic-Python-Chapter-3-DecisionStructures)  : Starting concepts on Python programming.
 - [**Chapter 04** - Repititive Structures](https://github.com/fromsantanu/Basic-Python-Chapter-4-RepititiveStructures)  : Starting concepts on Python programming.
