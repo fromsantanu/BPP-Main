@@ -1,28 +1,31 @@
 # Chapter: Repetitive Structures in Python
-Introduction
+## Introduction
 Repetitive structures, also known as loops, are fundamental in programming as they allow you to execute a block of code multiple times. In Python, the primary looping structures are for and while loops. This chapter will explore these loops, providing examples to illustrate their usage.
 
-1. The for Loop
+## 1. The for Loop
 The for loop in Python is used to iterate over a sequence (such as a list, tuple, dictionary, set, or string) or other iterable objects.
 
-Syntax
-python
-Copy code
+#### Syntax
+```python
 for variable in sequence:
     # block of code
-Example
-python
-Copy code
+```
+
+#### Example
+```python
 fruits = ["apple", "banana", "cherry"]
 
 for fruit in fruits:
     print(fruit)
-Output:
+```
 
-Copy code
+##### Output:
+```
 apple
 banana
 cherry
+```
+
 Example: Iterating Over a String
 python
 Copy code
