@@ -277,52 +277,48 @@ print(a ^ b)  # Output: 6
 print(~a)  # Output: -6
 ```
 
-Left Shift (<<)
-
-python
-Copy code
+#### Left Shift (<<)
+```python
 print(a << 1)  # Output: 10
-Right Shift (>>)
+```
 
-python
-Copy code
+#### Right Shift (>>)
+```python
 print(a >> 1)  # Output: 2
-Membership Operators
-IN (in)
+```
 
-python
-Copy code
+### Membership Operators
+#### IN (in)
+```python
 print("apple" in fruits)  # Output: True
-NOT IN (not in)
+```
 
-python
-Copy code
+#### NOT IN (not in)
+```python
 print("grape" not in fruits)  # Output: True
-Identity Operators
-IS (is)
+```
 
-python
-Copy code
+### Identity Operators
+#### IS (is)
+```python
 x = ["apple", "banana"]
 y = ["apple", "banana"]
 z = x
 print(x is z)  # Output: True
 print(x is y)  # Output: False
-**IS NOT
+```
 
-please continues
-ChatGPT
-IS NOT (is not)
-python
-Copy code
+#### **IS NOT
+```python
 print(x is not y)  # Output: True
 print(x is not z)  # Output: False
-Examples and Applications
+```
+
+## Examples and Applications
 Now that we have an understanding of data types, variables, and operators, let's look at some examples to see how they work together in Python programs.
 
-Example 1: Basic Arithmetic Operations
-python
-Copy code
+### Example 1: Basic Arithmetic Operations
+```python
 # Variables
 num1 = 15
 num2 = 4
@@ -354,9 +350,10 @@ print("Exponentiation:", result)  # Output: 50625
 # Floor Division
 result = num1 // num2
 print("Floor Division:", result)  # Output: 3
-Example 2: Using Comparison and Logical Operators
-python
-Copy code
+```
+
+### Example 2: Using Comparison and Logical Operators
+```python
 # Variables
 a = 10
 b = 20
@@ -373,9 +370,10 @@ print("a <= b:", a <= b)  # Output: True
 print("a > 5 and b > 15:", a > 5 and b > 15)  # Output: True
 print("a > 5 or b < 15:", a > 5 or b < 15)    # Output: True
 print("not(a > 5):", not(a > 5))              # Output: False
-Example 3: Working with Lists and Membership Operators
-python
-Copy code
+```
+
+### Example 3: Working with Lists and Membership Operators
+```python
 # List of fruits
 fruits = ["apple", "banana", "cherry"]
 
@@ -389,9 +387,10 @@ print("Updated fruits:", fruits)  # Output: ['apple', 'banana', 'cherry', 'grape
 
 # Checking membership again
 print("grape in fruits:", "grape" in fruits)  # Output: True
-Example 4: Using Dictionaries and Identity Operators
-python
-Copy code
+```
+
+### Example 4: Using Dictionaries and Identity Operators
+```python
 # Dictionary of a person
 person1 = {"name": "Alice", "age": 25}
 person2 = {"name": "Alice", "age": 25}
@@ -406,7 +405,9 @@ print("person1 is not person2:", person1 is not person2)  # Output: True
 person3["age"] = 30
 print("Updated person1:", person1)  # Output: {'name': 'Alice', 'age': 30}
 print("Updated person3:", person3)  # Output: {'name': 'Alice', 'age': 30}
-Summary
+```
+
+## Summary
 In this chapter, we've covered the essential concepts of data types, variables, and operators in Python. Understanding these basics is crucial for writing efficient and effective Python programs. We explored various data types, including numeric, sequence, mapping, set, boolean, and binary types. We also learned about variables and the rules for naming them. Finally, we delved into different types of operators, including arithmetic, assignment, comparison, logical, bitwise, membership, and identity operators, and saw examples of how to use them in Python programs.
 
-These foundational concepts will serve as the building blocks for more advanced topics in Python programming.
+**These foundational concepts will serve as the building blocks for more advanced topics in Python programming.**
