@@ -1,47 +1,50 @@
-Chapter: Decision Structures in Python
-Introduction
+# Chapter: Decision Structures in Python
+## Introduction
 Decision structures are essential in programming as they allow you to make decisions based on certain conditions. In Python, decision structures include if, if-else, and if-elif-else statements. These constructs enable the program to execute specific blocks of code based on the evaluation of conditions.
 
-1. The if Statement
+## 1. The if Statement
 The if statement evaluates a condition. If the condition is true, the block of code within the if statement is executed.
 
-Syntax
-python
-Copy code
+#### Syntax
+```python
 if condition:
     # block of code
-Example
-python
-Copy code
+```
+
+#### Example
+```python
 age = 18
 
 if age >= 18:
     print("You are eligible to vote.")  # Output: You are eligible to vote.
-2. The if-else Statement
+```
+
+## 2. The if-else Statement
 The if-else statement provides an alternative block of code to execute when the if condition is false.
 
-Syntax
-python
-Copy code
+#### Syntax
+```python
 if condition:
     # block of code if condition is true
 else:
     # block of code if condition is false
-Example
-python
-Copy code
+```
+
+#### Example
+```python
 age = 16
 
 if age >= 18:
     print("You are eligible to vote.")
 else:
     print("You are not eligible to vote.")  # Output: You are not eligible to vote.
-3. The if-elif-else Statement
+```
+
+## 3. The if-elif-else Statement
 The if-elif-else statement allows you to check multiple conditions. If the if condition is false, the elif (short for else if) conditions are checked in order. If none of the conditions are true, the else block is executed.
 
-Syntax
-python
-Copy code
+#### Syntax
+```python
 if condition1:
     # block of code if condition1 is true
 elif condition2:
@@ -50,9 +53,10 @@ elif condition3:
     # block of code if condition3 is true
 else:
     # block of code if none of the conditions are true
-Example
-python
-Copy code
+```
+
+#### Example
+```python
 marks = 85
 
 if marks >= 90:
@@ -63,36 +67,41 @@ elif marks >= 70:
     print("Grade: C")
 else:
     print("Grade: D")
-4. Nested if Statements
+```
+
+## 4. Nested if Statements
 You can use one if statement inside another if statement to create a nested decision structure.
 
-Syntax
-python
-Copy code
+#### Syntax
+```python
 if condition1:
     # block of code if condition1 is true
     if condition2:
         # block of code if condition2 is true
-Example
-python
-Copy code
+```
+
+#### Example
+```python
 num = 10
 
 if num > 0:
     print("The number is positive.")  # Output: The number is positive.
     if num % 2 == 0:
         print("The number is even.")  # Output: The number is even.
-5. Using Logical Operators in Decision Structures
+```
+
+## 5. Using Logical Operators in Decision Structures
 Logical operators like and, or, and not can be used to combine multiple conditions in a decision structure.
 
-Example with and
-python
-Copy code
+#### Example with and
+```python
 age = 25
 is_student = True
 
 if age < 30 and is_student:
     print("You are a young student.")  # Output: You are a young student.
+```
+
 Example with or
 python
 Copy code
