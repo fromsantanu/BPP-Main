@@ -3,9 +3,9 @@
 A complete case Python programming tutorials which is essential to follow the actual projects in the subsequent sections
 ## Foundational Concepts
 - [**Chapter 01** - Data, Variables and Operators](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter01.md)  : Starting concepts on Python programming.
-- [**Chapter 02** - Fundamental and Complex Data Types](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter02.md)  : Starting concepts on Python programming.
+- [**Chapter 02** - Fundamental and Collection Data Types](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter02.md)  : Starting concepts on Python programming.
 - [**Chapter 03** - Decision Structures](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter03.md)  : Starting concepts on Python programming.
-- [**Chapter 04** - Repititive Structures](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter04.md)  : Starting concepts on Python programming.
+- [**Chapter 04** - Repetitive Structures](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter04.md)  : Starting concepts on Python programming.
 - [**Chapter 05** - Lists and List Operations](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter05.md)  : Starting concepts on Python programming.
 - [**Chapter 06** - Tuple and Tuple Operations](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter06.md)  : Starting concepts on Python programming.
 - [**Chapter 07** - Set And Set Operations](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter07.md)  : Starting concepts on Python programming.
