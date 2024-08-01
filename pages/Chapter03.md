@@ -102,27 +102,28 @@ if age < 30 and is_student:
     print("You are a young student.")  # Output: You are a young student.
 ```
 
-Example with or
-python
-Copy code
+#### Example with or
+```python
 age = 25
 is_employed = False
 
 if age < 30 or is_employed:
     print("You are either young or employed.")  # Output: You are either young or employed.
-Example with not
-python
-Copy code
+```
+
+#### Example with not
+```python
 is_raining = False
 
 if not is_raining:
     print("You can go outside.")  # Output: You can go outside.
-6. Using Comparison Operators in Decision Structures
+```
+
+## 6. Using Comparison Operators in Decision Structures
 Comparison operators like ==, !=, <, >, <=, and >= are used to compare values in decision structures.
 
-Example
-python
-Copy code
+#### Example
+```python
 num1 = 10
 num2 = 20
 
@@ -135,12 +136,13 @@ if num1 < num2:
     print("num1 is less than num2.")  # Output: num1 is less than num2.
 elif num1 > num2:
     print("num1 is greater than num2.")
-Examples and Applications
+```
+
+## Examples and Applications
 To better understand decision structures, let's look at some practical examples.
 
-Example 1: Checking if a Number is Positive, Negative, or Zero
-python
-Copy code
+### Example 1: Checking if a Number is Positive, Negative, or Zero
+```python
 num = -5
 
 if num > 0:
@@ -149,9 +151,10 @@ elif num < 0:
     print("The number is negative.")  # Output: The number is negative.
 else:
     print("The number is zero.")
-Example 2: Categorizing Age Groups
-python
-Copy code
+```
+
+### Example 2: Categorizing Age Groups
+```python
 age = 45
 
 if age < 18:
@@ -160,9 +163,10 @@ elif age < 65:
     print("You are an adult.")  # Output: You are an adult.
 else:
     print("You are a senior citizen.")
-Example 3: Calculating Discount Based on Purchase Amount
-python
-Copy code
+```
+
+### Example 3: Calculating Discount Based on Purchase Amount
+```python
 purchase_amount = 150
 
 if purchase_amount >= 100:
@@ -174,5 +178,7 @@ else:
 
 discount_amount = purchase_amount * discount
 print("Discount amount:", discount_amount)  # Output: Discount amount: 30.0
-Summary
+```
+
+## Summary
 In this chapter, we've explored decision structures in Python, including if, if-else, and if-elif-else statements. We've also discussed nested if statements and how to use logical and comparison operators within decision structures. These constructs are essential for making decisions and controlling the flow of your program based on conditions. Mastering decision structures will enable you to write more dynamic and flexible Python programs.
