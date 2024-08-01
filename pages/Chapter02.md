@@ -54,6 +54,7 @@ A list is an ordered collection of items. Lists are mutable, meaning their eleme
 ```python
 fruits = ["apple", "banana", "cherry"]
 print(fruits)  # Output: ['apple', 'banana', 'cherry']
+```
 
 #### Accessing List Elements
 
@@ -73,12 +74,14 @@ print(fruits)  # Output: ['apple', 'blueberry', 'cherry']
 ```python
 fruits.append("date")
 print(fruits)  # Output: ['apple', 'blueberry', 'cherry', 'date']
+```
 
 #### Removing Elements from a List
 
 ```python
 fruits.remove("blueberry")
 print(fruits)  # Output: ['apple', 'cherry', 'date']
+```
 
 ### Tuple
 A tuple is an ordered collection of items that is immutable, meaning its elements cannot be changed.
@@ -88,11 +91,13 @@ A tuple is an ordered collection of items that is immutable, meaning its element
 ```python
 colors = ("red", "green", "blue")
 print(colors)  # Output: ('red', 'green', 'blue')
+```
 
 #### Accessing Tuple Elements
 
 ```python
 print(colors[1])  # Output: green
+```
 
 ### Tuples are Immutable
 
