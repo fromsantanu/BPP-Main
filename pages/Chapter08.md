@@ -112,51 +112,54 @@ keys = fruit_prices.keys()
 print(keys)  # Output: dict_keys(['apple', 'banana', 'cherry'])
 ```
 
-values()
+### values()
 The values() method returns a view object that displays a list of all the values in the dictionary.
 
-Example
-python
-Copy code
+#### Example
+```python
 # Getting all values
 values = fruit_prices.values()
 print(values)  # Output: dict_values([2.5, 1.2, 3.0])
-items()
+```
+
+### items()
 The items() method returns a view object that displays a list of all the key-value pairs in the dictionary.
 
-Example
-python
-Copy code
+#### Example
+```python
 # Getting all key-value pairs
 items = fruit_prices.items()
 print(items)  # Output: dict_items([('apple', 2.5), ('banana', 1.2), ('cherry', 3.0)])
-update()
+```
+
+### update()
 The update() method updates the dictionary with the key-value pairs from another dictionary or an iterable of key-value pairs.
 
-Example
-python
-Copy code
+#### Example
+```python
 # Updating the dictionary with another dictionary
 new_fruit_prices = {"date": 1.5, "elderberry": 2.8}
 fruit_prices.update(new_fruit_prices)
 print(fruit_prices)  # Output: {'apple': 2.5, 'banana': 1.2, 'cherry': 3.0, 'date': 1.5, 'elderberry': 2.8}
-6. Dictionary Comprehensions
+```
+
+## 6. Dictionary Comprehensions
 Dictionary comprehensions provide a concise way to create dictionaries.
 
-Example
-python
-Copy code
+#### Example
+```python
 # Creating a dictionary of squares
 squares = {x: x**2 for x in range(1, 6)}
 print(squares)  # Output: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
-Examples and Applications
+```
+
+## Examples and Applications
 To better understand dictionaries and dictionary operations, let's look at some practical examples.
 
-Example 1: Counting Frequency of Elements
+### Example 1: Counting Frequency of Elements
 You can use a dictionary to count the frequency of elements in a list.
 
-python
-Copy code
+```python
 # List of fruits
 fruits = ["apple", "banana", "apple", "cherry", "banana", "cherry", "cherry"]
 
@@ -169,11 +172,12 @@ for fruit in fruits:
         fruit_count[fruit] = 1
 
 print(fruit_count)  # Output: {'apple': 2, 'banana': 2, 'cherry': 3}
-Example 2: Storing Student Grades
+```
+
+### Example 2: Storing Student Grades
 You can use a dictionary to store and retrieve student grades.
 
-python
-Copy code
+```python
 # Dictionary of student grades
 student_grades = {"Alice": "A", "Bob": "B", "Charlie": "C"}
 
@@ -190,11 +194,12 @@ student_grades["Bob"] = "A"
 student_grades.pop("Charlie")
 
 print(student_grades)  # Output: {'Alice': 'A', 'Bob': 'A', 'David': 'B'}
-Example 3: Converting Two Lists into a Dictionary
+```
+
+### Example 3: Converting Two Lists into a Dictionary
 You can use the zip() function to convert two lists into a dictionary.
 
-python
-Copy code
+```python
 # Lists of fruits and their prices
 fruit_names = ["apple", "banana", "cherry"]
 fruit_prices = [2.5, 1.2, 3.0]
@@ -202,5 +207,7 @@ fruit_prices = [2.5, 1.2, 3.0]
 # Converting lists to a dictionary
 fruit_dict = dict(zip(fruit_names, fruit_prices))
 print(fruit_dict)  # Output: {'apple': 2.5, 'banana': 1.2, 'cherry': 3.0}
-Summary
+```
+
+## Summary
 In this chapter, we've explored dictionaries and dictionary operations in Python. Dictionaries are a powerful data structure for storing and manipulating data in key-value pairs. We've covered how to create dictionaries, access and modify elements, add and remove elements, and use various dictionary methods. We've also discussed dictionary comprehensions and provided practical examples to illustrate the usage of dictionaries in different scenarios. Understanding dictionaries and their operations is essential for writing efficient and effective Python programs that require the handling of key-value data.
