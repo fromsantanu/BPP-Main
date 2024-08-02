@@ -16,7 +16,7 @@ A complete case Python programming tutorials which is essential to follow the ac
 - [**Chapter 12** - Important Packages To Know](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter12.md) 
 
 ## Selected Packages
-- [**Numpy** - For Complex Array Operations](https://github.com/fromsantanu/Basic-Python-Chapter-1)  
+- [**Numpy** - For Complex Array Operations](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP-Main.md)  
 - [**Pandas** - For Series and Data frames](https://github.com/fromsantanu/Basic-Python-Chapter-1)  
 - [**Matplotlib** - For Sophisticated Charts](https://github.com/fromsantanu/Basic-Python-Chapter-1)  
 - [**Seaborn** - For Excellent Data Visualisations](https://github.com/fromsantanu/Basic-Python-Chapter-1) 
