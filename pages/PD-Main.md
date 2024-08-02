@@ -1,7 +1,7 @@
 Here's a comprehensive topic list to cover Pandas:
 
 # Introduction to Pandas
-- [What is Pandas?](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter01.md/#Installation and Setup
+- [What is Pandas?](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter01.md/#Installation-and-Setup)
 - [Installation and setup](#)
 - [Key features and benefits](#)
 
