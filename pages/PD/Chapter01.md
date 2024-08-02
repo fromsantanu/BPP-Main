@@ -1,9 +1,9 @@
 # Chapter 1: Introduction to Pandas
 
-## 1.1 What is Pandas?
+## What is Pandas?
 Pandas is a powerful and flexible open-source data manipulation and analysis library for the Python programming language. It is designed for working with structured data, providing data structures and functions needed to manipulate, analyze, and visualize large datasets efficiently. The core data structures in Pandas are Series (one-dimensional) and DataFrame (two-dimensional), which allow for fast and easy data manipulation.
 
-## 1.2 Installation and Setup
+## Installation and Setup
 To use Pandas, you need to have Python installed on your system. Pandas can be installed via pip, the Python package installer, or via conda, if you are using the Anaconda distribution.
 
 ### Using pip:
@@ -23,7 +23,7 @@ conda install pandas
 ``` python
 import pandas as pd
 ```
-## 1.3 Key Features and Benefits
+## Key Features and Benefits
 Pandas offers a wide range of features that make it indispensable for data manipulation and analysis:
 
 ### Data Structures:
