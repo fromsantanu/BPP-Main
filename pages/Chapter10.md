@@ -1,4 +1,4 @@
-# Chapter: Method Handling in Python
+# Part II: Method Handling in Python
 ## Introduction
 Methods in Python are functions that are associated with objects. They are used to perform operations on the data stored in an object. This chapter will cover the basics of method handling in Python, including defining methods, invoking methods, and using special methods. We'll provide examples to illustrate their usage and explain how methods enhance the functionality of Python classes.
 
