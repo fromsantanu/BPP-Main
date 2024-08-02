@@ -1,4 +1,4 @@
-# Chapter: Important Packages to Know About in Python for Healthcare Research
+# Chapter: Important Packages to Know for Healthcare Research
 
 ## Introduction
 
