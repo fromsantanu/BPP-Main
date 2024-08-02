@@ -263,6 +263,7 @@ print(manager.display())  # Output: Manager: Alice, Department: IT, Salary: 8500
 ## Summary
 In this chapter, we've explored classes and objects in Python, which are fundamental to object-oriented programming (OOP). We've covered how to define classes, create objects, and use attributes and methods. We've also discussed inheritance, polymorphism, encapsulation, and special methods. Understanding classes and objects is essential for writing modular, maintainable, and reusable Python code.
 
+#
 # Part II: Method Handling in Python (Added for further clarification)
 ## Introduction
 Methods in Python are functions that are associated with objects. They are used to perform operations on the data stored in an object. This chapter will cover the basics of method handling in Python, including defining methods, invoking methods, and using special methods. We'll provide examples to illustrate their usage and explain how methods enhance the functionality of Python classes.
