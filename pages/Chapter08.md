@@ -52,62 +52,66 @@ fruit_prices["banana"] = 1.3
 print(fruit_prices)  # Output: {'apple': 2.5, 'banana': 1.3, 'cherry': 3.0, 'date': 1.5}
 4. Removing Dictionary Elements
 ```
-
 #### You can remove elements from a dictionary using the pop(), popitem(), and del statements, as well as the clear() method.
 
-pop()
+### pop()
 The pop() method removes a key-value pair and returns the value.
 
-Example
-python
-Copy code
+#### Example
+```python
 # Removing a key-value pair
 price = fruit_prices.pop("cherry")
 print(price)  # Output: 3.0
 print(fruit_prices)  # Output: {'apple': 2.5, 'banana': 1.3, 'date': 1.5}
-popitem()
+```
+
+### popitem()
 The popitem() method removes and returns the last key-value pair.
 
-Example
-python
-Copy code
+#### Example
+```python
 # Removing the last key-value pair
 last_item = fruit_prices.popitem()
 print(last_item)  # Output: ('date', 1.5)
 print(fruit_prices)  # Output: {'apple': 2.5, 'banana': 1.3}
-del
+```
+
+### del
 The del statement removes a key-value pair.
 
-Example
-python
-Copy code
+#### Example
+```python
 # Deleting a key-value pair
 del fruit_prices["banana"]
 print(fruit_prices)  # Output: {'apple': 2.5}
-clear()
+```
+
+### clear()
 The clear() method removes all elements from the dictionary.
 
-Example
-python
-Copy code
+#### Example
+```python
 # Clearing the dictionary
 fruit_prices.clear()
 print(fruit_prices)  # Output: {}
-5. Dictionary Methods
+```
+
+## 5. Dictionary Methods
 Python provides several built-in methods for dictionaries to perform various operations.
 
-keys()
+### keys()
 The keys() method returns a view object that displays a list of all the keys in the dictionary.
 
-Example
-python
-Copy code
+#### Example
+```python
 # Creating a dictionary of fruits with their prices
 fruit_prices = {"apple": 2.5, "banana": 1.2, "cherry": 3.0}
 
 # Getting all keys
 keys = fruit_prices.keys()
 print(keys)  # Output: dict_keys(['apple', 'banana', 'cherry'])
+```
+
 values()
 The values() method returns a view object that displays a list of all the values in the dictionary.
 
