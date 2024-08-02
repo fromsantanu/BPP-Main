@@ -3,7 +3,7 @@ Here's a comprehensive topic list to cover Pandas:
 # Introduction to Pandas
 - [What is Pandas?](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter01.md/#What-is-Pandas)
 - [Installation and setup](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter01.md/#Installation-and-Setup)
-- [Key features and benefits](What is Pandas](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter01.md/#Key-features-and-benefits)
+- [Key features and benefits](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter01.md/#Key-features-and-benefits)
 
 ## Pandas Data Structures
 ### Series
