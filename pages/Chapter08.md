@@ -1,46 +1,48 @@
-Chapter: Dictionaries and Dictionary Operations in Python
-Introduction
+# Chapter: Dictionaries and Dictionary Operations in Python
+## Introduction
 Dictionaries are one of the most versatile and widely used data structures in Python. They store data in key-value pairs, allowing for efficient retrieval, addition, and modification of data. This chapter will cover the basics of dictionaries, how to perform various operations on them, and provide examples to illustrate their usage.
 
-1. Creating Dictionaries
+## 1. Creating Dictionaries
 A dictionary is created by placing key-value pairs inside curly braces {}, separated by commas. Keys and values are separated by a colon :.
 
-Example
-python
-Copy code
+#### Example
+```python
 # Creating a dictionary of fruits with their prices
 fruit_prices = {"apple": 2.5, "banana": 1.2, "cherry": 3.0}
 print(fruit_prices)  # Output: {'apple': 2.5, 'banana': 1.2, 'cherry': 3.0}
-Dictionaries can also be created using the dict() function.
+```
+#### Dictionaries can also be created using the dict() function.
 
-python
-Copy code
+```python
 # Creating a dictionary using the dict() function
 fruit_prices = dict(apple=2.5, banana=1.2, cherry=3.0)
 print(fruit_prices)  # Output: {'apple': 2.5, 'banana': 1.2, 'cherry': 3.0}
-2. Accessing Dictionary Elements
+```
+
+## 2. Accessing Dictionary Elements
 You can access the value associated with a key by using square brackets [] or the get() method.
 
-Example
-python
-Copy code
+#### Example
+```python
 # Accessing the price of an apple
 print(fruit_prices["apple"])  # Output: 2.5
 
 # Using the get() method
 print(fruit_prices.get("banana"))  # Output: 1.2
-If a key is not found, get() returns None by default, but you can specify a different return value.
+```
 
-python
-Copy code
+#### If a key is not found, get() returns None by default, but you can specify a different return value.
+
+```python
 # Accessing a non-existent key
 print(fruit_prices.get("orange", "Not Found"))  # Output: Not Found
-3. Adding and Modifying Dictionary Elements
+```
+
+## 3. Adding and Modifying Dictionary Elements
 You can add new key-value pairs or modify existing ones by assigning a value to a key.
 
-Example
-python
-Copy code
+#### Example
+```python
 # Adding a new key-value pair
 fruit_prices["date"] = 1.5
 print(fruit_prices)  # Output: {'apple': 2.5, 'banana': 1.2, 'cherry': 3.0, 'date': 1.5}
@@ -49,7 +51,9 @@ print(fruit_prices)  # Output: {'apple': 2.5, 'banana': 1.2, 'cherry': 3.0, 'dat
 fruit_prices["banana"] = 1.3
 print(fruit_prices)  # Output: {'apple': 2.5, 'banana': 1.3, 'cherry': 3.0, 'date': 1.5}
 4. Removing Dictionary Elements
-You can remove elements from a dictionary using the pop(), popitem(), and del statements, as well as the clear() method.
+```
+
+#### You can remove elements from a dictionary using the pop(), popitem(), and del statements, as well as the clear() method.
 
 pop()
 The pop() method removes a key-value pair and returns the value.
