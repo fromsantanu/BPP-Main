@@ -10,8 +10,8 @@ A complete case Python programming tutorials which is essential to follow the ac
 - [**Chapter 06** - Tuple and Tuple Operations](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter06.md)  : Starting concepts on Python programming.
 - [**Chapter 07** - Set And Set Operations](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter07.md)  : Starting concepts on Python programming.
 - [**Chapter 08** - Dictionaries And Dictionary Operations](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter08.md)  : Starting concepts on Python
-- [**Chapter 09** - Method Handling](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter09.md)  : Starting concepts on Python programming.
-- [**Chapter 10** - Objects And Classes](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter10.md)  : Starting concepts on Python
+- [**Chapter 09** - Understanding Functions](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter09.md)  : Starting concepts on Python programming.
+- [**Chapter 10** - Objects Classes and Methods](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter10.md)  : Starting concepts on Python
 - [**Chapter 11** - Modules And Packages](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter11.md)  : Starting concepts on Python
 - [**Chapter 12** - Important Packages To Know](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter12.md)  : Starting concepts on Python
 
