@@ -1,6 +1,6 @@
-Here's a comprehensive topic list to cover Pandas:
+# Pandas ![Static Badge](https://img.shields.io/badge/Work%20In%20Progress-008000) 
 
-# Introduction to Pandas
+## Introduction to Pandas
 - [What is Pandas?](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter01.md)
 - [Installation and setup](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter01.md#installation-and-setup)
 - [Key features and benefits](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter01.md#key-features-and-benefits)
