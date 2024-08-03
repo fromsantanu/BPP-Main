@@ -50,41 +50,42 @@
 ## Advanced Statistical Models
 
 ### Mixed Effects Models
-Linear Mixed Effects Models
-Generalized Linear Mixed Effects Models
+- [Linear Mixed Effects Models](#)
+- [Generalized Linear Mixed Effects Models](#)
 
 ### Bayesian Analysis
-Bayesian Linear Regression
-Bayesian Hierarchical Models
+- [Bayesian Linear Regression](#)
+- [Bayesian Hierarchical Models](#)
 
 ### Principal Component Analysis (PCA)
-Performing PCA
-Interpreting PCA Results
+- [Performing PCA](#)
+- [Interpreting PCA Results](#)
 
 ### Factor Analysis
-Exploratory Factor Analysis
-Confirmatory Factor Analysis
+- [Exploratory Factor Analysis](#)
+- [Confirmatory Factor Analysis](#)
 
 ## Hypothesis Testing and Statistical Inference
 
 ### Parametric Tests
-T-tests (One-sample, Two-sample, Paired)
-Z-tests
+- [T-tests (One-sample, Two-sample, Paired)](#)
+- [Z-tests](#)
 
 ### Non-Parametric Tests
-Mann-Whitney U Test
-Wilcoxon Signed-Rank Test
-Kruskal-Wallis H Test
+- [Mann-Whitney U Test](#)
+- [Wilcoxon Signed-Rank Test](#)
+- [Kruskal-Wallis H Test](#)
 
 ### Chi-Square Tests
-Chi-Square Test for Independence
-Chi-Square Goodness-of-Fit Test
+- [Chi-Square Test for Independence](#)
+- [Chi-Square Goodness-of-Fit Test](#)
 
 ## Model Diagnostics and Evaluation
+
 ### Model Diagnostics
-Residual Analysis
-Multicollinearity Detection
-Heteroscedasticity Tests
+- [Residual Analysis](#)
+- [Multicollinearity Detection](#)
+- [Heteroscedasticity Tests](#)
 
 ### Model Selection and Validation
 Cross-Validation
