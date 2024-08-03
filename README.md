@@ -1,4 +1,4 @@
-# Basic Python Programming 
+# Basic Python Programming [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![HitCount](https://hits.dwyl.com/fromsantanu/BPP-Main.svg)<br>
 A complete case Python programming tutorials which is essential to follow the actual projects in the subsequent sections
 ## Foundational Concepts
