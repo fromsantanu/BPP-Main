@@ -16,12 +16,12 @@ A complete case Python programming tutorials which is essential to follow the ac
 - [**Chapter 12** - Important Packages To Know](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter12.md) 
 
 ## Selected Packages
-- [**Numpy**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP-Main.md)  
-- [**Pandas**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD-Main.md)  
-- [**Matplotlib**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/MPL-Main.md)  
-- [**Seaborn**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SB-Main.md)
-- [**Statmodels**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM-Main.md)
-- [**SciPy**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SP-Main.md) 
+- [**Numpy**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP-Main.md) ![Static Badge](https://img.shields.io/badge/Work%20In%20Progress-008000)  
+- [**Pandas**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD-Main.md) ![Static Badge](https://img.shields.io/badge/In%20Progress-008000) 
+- [**Matplotlib**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/MPL-Main.md) ![Static Badge](https://img.shields.io/badge/In%20Progress-008000) 
+- [**Seaborn**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SB-Main.md) ![Static Badge](https://img.shields.io/badge/In%20Progress-008000)
+- [**Statmodels**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM-Main.md) ![Static Badge](https://img.shields.io/badge/In%20Progress-008000)
+- [**SciPy**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SP-Main.md) ![Static Badge](https://img.shields.io/badge/In%20Progress-008000)
 
 ## Watch the Intro 
 [![Watch the video](https://img.youtube.com/vi/tbd/hqdefault.jpg)](https://www.youtube.com/watch?v=tbd)
