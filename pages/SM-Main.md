@@ -88,27 +88,28 @@
 - [Heteroscedasticity Tests](#)
 
 ### Model Selection and Validation
-Cross-Validation
-AIC and BIC Criteria
-Comparing Models
+- [Cross-Validation](#)
+- [AIC and BIC Criteria](#)
+- [Comparing Models](#)
 
 ## Practical Applications and Case Studies
+
 ### Case Studies in Healthcare and Epidemiology
-Analyzing Patient Data
-Disease Risk Modeling
-Survival Analysis in Clinical Trials
+- [Analyzing Patient Data](#)
+- [Disease Risk Modeling](#)
+- [Survival Analysis in Clinical Trials](#)
 
 ### Project Tutorials
-End-to-End Data Analysis Projects
-Integrating Data Analysis with Visualization
-Reporting and Interpreting Results
+- [End-to-End Data Analysis Projects](#)
+- [Integrating Data Analysis with Visualization](#)
+- [Reporting and Interpreting Results](#)
 
 ## Integration with Other Libraries
 
-###Integration with Pandas
-Using statsmodels with Pandas DataFrames
-Data Manipulation and Model Fitting
+### Integration with Pandas
+- [Using statsmodels with Pandas DataFrames](#)
+- [Data Manipulation and Model Fitting](#)
 
 ### Integration with Scikit-Learn
-Combining statsmodels and Scikit-Learn
-Hybrid Modeling Approaches
+- [Combining statsmodels and Scikit-Learn](#)
+- [Hybrid Modeling Approaches](#)
