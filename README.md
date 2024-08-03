@@ -19,7 +19,9 @@ A complete case Python programming tutorials which is essential to follow the ac
 - [**Numpy**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP-Main.md)  
 - [**Pandas**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD-Main.md)  
 - [**Matplotlib**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/MPL-Main.md)  
-- [**Seaborn**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SB-Main.md) 
+- [**Seaborn**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SB-Main.md)
+- [**Statmodels**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM-Main.md)
+- [**SciPy**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SP-Main.md) 
 
 ## Watch the Intro 
 [![Watch the video](https://img.youtube.com/vi/tbd/hqdefault.jpg)](https://www.youtube.com/watch?v=tbd)
