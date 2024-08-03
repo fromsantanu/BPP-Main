@@ -16,10 +16,10 @@ A complete case Python programming tutorials which is essential to follow the ac
 - [**Chapter 12** - Important Packages To Know](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter12.md) 
 
 ## Selected Packages
-- [**Numpy** - For Complex Array Operations](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP-Main.md)  
-- [**Pandas** - For Series and Data frames](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD-Main.md)  
-- [**Matplotlib** - For Sophisticated Charts](https://github.com/fromsantanu/BPP-Main/blob/main/pages/MPL-Main.md)  
-- [**Seaborn** - For Excellent Data Visualisations](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SB-Main.md) 
+- [**Numpy**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP-Main.md)  
+- [**Pandas**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD-Main.md)  
+- [**Matplotlib**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/MPL-Main.md)  
+- [**Seaborn**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SB-Main.md) 
 
 ## Watch the Intro 
 [![Watch the video](https://img.youtube.com/vi/tbd/hqdefault.jpg)](https://www.youtube.com/watch?v=tbd)
