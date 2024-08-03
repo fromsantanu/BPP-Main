@@ -3,49 +3,49 @@
 ## Introduction to statsmodels
 
 ### Overview and Installation
-- Introduction to statsmodels
-- Installation and Setup
+- [Introduction to statsmodels](#)
+- [Installation and Setup](#)
 
 ## Data Handling and Preparation
 
 ### Data Input and Management
-Importing Data (CSV, Excel, etc.)
-Data Preparation and Cleaning
-Handling Missing Data
+- [Importing Data (CSV, Excel, etc.)](#)
+- [Data Preparation and Cleaning](#)
+- [Handling Missing Data](#)
 
 ### Exploratory Data Analysis (EDA)
-Descriptive Statistics
-Data Visualization
-Correlation Analysis
+- [Descriptive Statistics](#)
+- [Data Visualization](#)
+- [Correlation Analysis](#)
 
 ## Statistical Models
 
 ### Linear Regression Models
-Simple Linear Regression
-Multiple Linear Regression
-Model Diagnostics and Assumptions
+- [Simple Linear Regression](#)
+- [Multiple Linear Regression](#)
+- [Model Diagnostics and Assumptions](#)
 
 ### Generalized Linear Models (GLM)
-Overview of GLMs
-Logistic Regression
-Poisson Regression
+- [Overview of GLMs](#)
+- [Logistic Regression](#)
+- [Poisson Regression](#)
 
 ### Analysis of Variance (ANOVA)
-One-Way ANOVA
-Two-Way ANOVA
-Interpreting ANOVA Results
+- [One-Way ANOVA](#)
+- [Two-Way ANOVA](#)
+-[Interpreting ANOVA Results](#)
 
 ### Time Series Analysis
-Time Series Decomposition
-Autoregressive (AR) Models
-Moving Average (MA) Models
-ARIMA and SARIMA Models
-Forecasting and Prediction
+- [Time Series Decomposition](#)
+- [Autoregressive (AR) Models](#)
+- [Moving Average (MA) Models](#)
+- [ARIMA and SARIMA Models](#)
+- [Forecasting and Prediction](#)
 
 ### Survival Analysis
-Kaplan-Meier Estimator
-Cox Proportional Hazards Model
-Parametric Survival Models
+- [Kaplan-Meier Estimator](#)
+- [Cox Proportional Hazards Model](#)
+- [Parametric Survival Models](#)
 
 ## Advanced Statistical Models
 
