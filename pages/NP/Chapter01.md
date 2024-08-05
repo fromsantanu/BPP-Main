@@ -2,7 +2,7 @@
 NumPy, short for Numerical Python, is a fundamental package for scientific computing in Python. It provides support for arrays, matrices, and many mathematical functions to operate on these data structures. Here’s why NumPy is essential:
 
 1. **Efficiency**: NumPy arrays are more efficient in terms of memory and performance compared to Python lists, especially for large datasets.
-2.** Mathematical Operations**: NumPy offers a vast collection of mathematical functions for linear algebra, random number generation, and more.
+2. **Mathematical Operations**: NumPy offers a vast collection of mathematical functions for linear algebra, random number generation, and more.
 3. **Integration**: NumPy integrates seamlessly with other scientific libraries in Python, such as SciPy, Pandas, and Matplotlib.
 
 ## Key Features
