@@ -1,13 +1,14 @@
-Concatenation and Splitting
+
+## Concatenation and Splitting
 NumPy provides several functions to concatenate and split arrays, enabling flexible manipulation of data structures. This chapter will cover concatenate, vstack, hstack for concatenation, and split, hsplit, vsplit for splitting arrays.
 
-Concatenation
+### Concatenation
 Concatenation refers to joining arrays along an existing axis.
 
-np.concatenate
+#### np.concatenate
 The np.concatenate function joins a sequence of arrays along an existing axis.
 
-python
+```python
 Copy code
 import numpy as np
 
