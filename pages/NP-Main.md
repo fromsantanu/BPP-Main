@@ -27,7 +27,7 @@
 ## Universal Functions (ufuncs)
 - [Mathematical functions (e.g., np.add, np.subtract, np.multiply, np.divide, np.power, np.sin, np.cos, np.exp, np.log)](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter07.md)
 
-## Advanced Array Manipulations ![Static Badge](https://img.shields.io/badge/Work%20In%20Progress-008000)  
+## Advanced Array Manipulations 
 ### Reshaping Arrays
 - [reshape, ravel, flatten](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter08.md)
 ### Concatenation and Splitting
