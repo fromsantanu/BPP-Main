@@ -4,13 +4,13 @@ Broadcasting is a powerful feature in NumPy that allows arithmetic operations to
 ## Broadcasting Rules
 Broadcasting follows a set of rules to determine how arrays of different shapes are treated during arithmetic operations. The basic rules are:
 
-1. Compatibility: Two dimensions are compatible when:
+1. **Compatibility**: Two dimensions are compatible when:
+- They are equal, or
+- One of them is 1
 
-They are equal, or
-One of them is 1
-2. Shape Alignment: The arrays are aligned to the right before comparison. This means that the dimensions are compared from the trailing dimensions (rightmost) to the leading dimensions (leftmost).
+2. **Shape Alignment**: The arrays are aligned to the right before comparison. This means that the dimensions are compared from the trailing dimensions (rightmost) to the leading dimensions (leftmost).
 
-3. Extension: If an array has a dimension of 1 in a certain position, it can be stretched to match the other array's dimension in that position.
+3. **Extension**: If an array has a dimension of 1 in a certain position, it can be stretched to match the other array's dimension in that position.
 
 Examples
 Let's go through some examples to illustrate how broadcasting works.
