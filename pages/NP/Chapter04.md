@@ -36,7 +36,7 @@ print("First column:", array_2d[:, 0])
 print("Second and third columns:", array_2d[:, 1:])
 ```
 
-## Boolean Indexing
+### Boolean Indexing
 Boolean indexing allows you to select elements from an array that satisfy certain conditions. This is useful for filtering data.
 
 ```python
@@ -52,11 +52,10 @@ filtered_array = array[bool_index]
 print("Filtered array:", filtered_array)
 ```
 
-Fancy Indexing
+### Fancy Indexing
 Fancy indexing allows you to access multiple array elements at once using lists or arrays of indices.
 
-python
-Copy code
+```python
 # Creating a 1D array
 array = np.array([10, 20, 30, 40, 50])
 
@@ -76,12 +75,13 @@ print("Fancy indexed rows:\n", fancy_indexed_2d)
 
 fancy_indexed_2d_cols = array_2d[:, col_indices]
 print("Fancy indexed columns:\n", fancy_indexed_2d_cols)
-Code Examples
+```
+
+## Code Examples
 Here are comprehensive examples demonstrating array indexing and slicing:
 
-Example 1: Basic Slicing and Indexing
-python
-Copy code
+### Example 1: Basic Slicing and Indexing
+```python
 import numpy as np
 
 # Creating a 1D array
@@ -105,9 +105,10 @@ print("Second and third rows:", array_2d[1:, :])
 # Slicing columns
 print("First column:", array_2d[:, 0])
 print("Second and third columns:", array_2d[:, 1:])
-Example 2: Boolean Indexing
-python
-Copy code
+```
+
+### Example 2: Boolean Indexing
+```python
 # Creating an array
 array = np.array([10, 20, 30, 40, 50])
 
@@ -118,9 +119,10 @@ print("Boolean index:", bool_index)
 # Applying boolean index
 filtered_array = array[bool_index]
 print("Filtered array:", filtered_array)
-Example 3: Fancy Indexing
-python
-Copy code
+```
+
+### Example 3: Fancy Indexing
+```python
 # Creating a 1D array
 array = np.array([10, 20, 30, 40, 50])
 
@@ -140,4 +142,6 @@ print("Fancy indexed rows:\n", fancy_indexed_2d)
 
 fancy_indexed_2d_cols = array_2d[:, col_indices]
 print("Fancy indexed columns:\n", fancy_indexed_2d_cols)
+```
+
 By mastering these indexing and slicing techniques, you can efficiently access and manipulate data within NumPy arrays, making your data processing tasks more effective and efficient.
