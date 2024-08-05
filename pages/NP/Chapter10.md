@@ -28,12 +28,11 @@ print("Original 3D array:\n", array_3d)
 print("Transposed 3D array:\n", transposed_array_3d)
 ```
 
-Swapaxes
+## Swapaxes
 The swapaxes function allows you to swap two specified axes of an array.
 
-Example
-python
-Copy code
+### Example
+```python
 # Creating a 3D array
 array_3d = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
 
@@ -41,12 +40,13 @@ array_3d = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
 swapped_axes_array = np.swapaxes(array_3d, 0, 2)
 print("Original 3D array:\n", array_3d)
 print("Array after swapping axes 0 and 2:\n", swapped_axes_array)
-T Attribute
+```
+
+## T Attribute
 The .T attribute is a shorthand for transposing a 2D array. It is equivalent to calling the transpose method.
 
-Example
-python
-Copy code
+### Example
+```python
 # Creating a 2D array
 array_2d = np.array([[1, 2, 3], [4, 5, 6]])
 
@@ -54,12 +54,13 @@ array_2d = np.array([[1, 2, 3], [4, 5, 6]])
 transposed_array_T = array_2d.T
 print("Original array:\n", array_2d)
 print("Transposed array using .T:\n", transposed_array_T)
-Example Code
+```
+
+## Example Code
 Here are comprehensive examples demonstrating the use of transpose, swapaxes, and .T:
 
-Transpose Examples
-python
-Copy code
+### Transpose Examples
+```python
 import numpy as np
 
 # Creating a 2D array
@@ -77,9 +78,10 @@ array_3d = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
 transposed_array_3d = np.transpose(array_3d, (1, 0, 2))
 print("Original 3D array:\n", array_3d)
 print("Transposed 3D array:\n", transposed_array_3d)
-Swapaxes Example
-python
-Copy code
+```
+
+### Swapaxes Example
+```python
 # Creating a 3D array
 array_3d = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
 
@@ -87,9 +89,10 @@ array_3d = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
 swapped_axes_array = np.swapaxes(array_3d, 0, 2)
 print("Original 3D array:\n", array_3d)
 print("Array after swapping axes 0 and 2:\n", swapped_axes_array)
-T Attribute Example
-python
-Copy code
+```
+
+### T Attribute Example
+```python
 # Creating a 2D array
 array_2d = np.array([[1, 2, 3], [4, 5, 6]])
 
@@ -97,4 +100,6 @@ array_2d = np.array([[1, 2, 3], [4, 5, 6]])
 transposed_array_T = array_2d.T
 print("Original array:\n", array_2d)
 print("Transposed array using .T:\n", transposed_array_T)
+```
+
 By mastering these transposition techniques, you can efficiently manipulate and analyze your data arrays in NumPy, making your data processing tasks more effective and flexible.
