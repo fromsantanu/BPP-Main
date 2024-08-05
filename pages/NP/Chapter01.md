@@ -15,60 +15,64 @@ NumPy, short for Numerical Python, is a fundamental package for scientific compu
 ## Installation and Setup
 Installing NumPy is straightforward. It can be installed using pip, the Python package manager.
 
-Using pip
-sh
-Copy code
+#### Using pip
+```sh
 pip install numpy
-Using conda
+```
+
+#### Using conda
 If you are using Anaconda, you can install NumPy with:
 
-sh
-Copy code
+```sh
 conda install numpy
-Verifying Installation
+```
+
+#### Verifying Installation
 To verify the installation, you can import NumPy in a Python script or an interactive Python session:
 
-python
-Copy code
+```python
 import numpy as np
 
 # Check the version of NumPy
 print(np.__version__)
-NumPy vs. Python Lists
+```
+
+## NumPy vs. Python Lists
 While Python lists are versatile and easy to use, NumPy arrays provide better performance and more functionality for numerical computations. Below are some key differences:
 
-Performance
+### Performance
 NumPy arrays are implemented in C and optimized for numerical operations, making them faster for mathematical computations compared to Python lists.
 
-Memory Efficiency
+### Memory Efficiency
 NumPy arrays consume less memory than Python lists because they store elements of the same data type and optimize storage.
 
-Functionality
+### Functionality
 NumPy provides a wide range of functions specifically designed for numerical operations, which are not available with Python lists.
 
-Code Examples
-Creating Arrays
-Python List
+## Code Examples
+### Creating Arrays
+#### Python List
 
-python
-Copy code
+```python
 # Creating a list
 my_list = [1, 2, 3, 4, 5]
 print(my_list)
-NumPy Array
+```
 
-python
-Copy code
+#### NumPy Array
+
+```python
 import numpy as np
 
 # Creating a NumPy array
 my_array = np.array([1, 2, 3, 4, 5])
 print(my_array)
-Performance Comparison
-Python List
+```
 
-python
-Copy code
+## Performance Comparison
+### Python List
+
+```python
 import time
 
 # Creating a large list
@@ -81,10 +85,11 @@ my_list = [x + 1 for x in my_list]
 end_time = time.time()
 
 print(f"Time taken for list operation: {end_time - start_time} seconds")
-NumPy Array
+```
 
-python
-Copy code
+### NumPy Array
+
+```python
 # Creating a large NumPy array
 my_array = np.arange(size)
 
@@ -94,11 +99,12 @@ my_array = my_array + 1
 end_time = time.time()
 
 print(f"Time taken for NumPy array operation: {end_time - start_time} seconds")
-Memory Efficiency
-Python List
+```
 
-python
-Copy code
+## Memory Efficiency
+### Python List
+
+```python
 import sys
 
 # Creating a list
@@ -106,32 +112,37 @@ my_list = list(range(1000))
 
 # Checking the size of the list
 print(f"Size of list: {sys.getsizeof(my_list)} bytes")
-NumPy Array
+```
 
-python
-Copy code
+### NumPy Array
+
+```python
 # Creating a NumPy array
 my_array = np.arange(1000)
 
 # Checking the size of the array
 print(f"Size of NumPy array: {my_array.nbytes} bytes")
-Mathematical Operations
-Python List
+```
 
-python
-Copy code
+## Mathematical Operations
+### Python List
+
+```python
 # Element-wise addition
 list1 = [1, 2, 3, 4, 5]
 list2 = [10, 20, 30, 40, 50]
 result = [x + y for x, y in zip(list1, list2)]
 print(result)
-NumPy Array
+```
 
-python
-Copy code
+### NumPy Array
+
+```python
 # Element-wise addition
 array1 = np.array([1, 2, 3, 4, 5])
 array2 = np.array([10, 20, 30, 40, 50])
 result = array1 + array2
 print(result)
+```
+
 In conclusion, NumPy is a powerful library for numerical computations in Python. Its efficiency, performance, and extensive functionality make it a preferred choice for scientific and data-intensive applications.
