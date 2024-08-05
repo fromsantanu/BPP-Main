@@ -2,8 +2,8 @@
 # Introduction to NumPy ![Static Badge](https://img.shields.io/badge/Work%20In%20Progress-008000)  
 
 ## Overview and Importance of NumPy
-- [Installation and Setup](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter01.md#overview-and-importance-of-numpy)
-- [NumPy vs. Python Lists](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter01.md#numpy-vs-python-lists)
+- [Installation and Setup](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter01.md)
+- [NumPy vs. Python Lists](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter01.md)
 
 ## NumPy Basics
 ### Creating NumPy Arrays
