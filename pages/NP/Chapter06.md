@@ -85,7 +85,7 @@ except ValueError as e:
     print("Error:", e)
 ```
 
-## Understanding Broadcasting with Shape Comparison
+### Understanding Broadcasting with Shape Comparison
 To understand how broadcasting works, consider the shape comparison step-by-step:
 
 ```python
@@ -103,8 +103,8 @@ result = array_1 + array_2
 print("Broadcasting result:\n", result)
 ```
 
-## Advanced Broadcasting Example
-### Example 5: Broadcasting with Higher Dimensions
+### Advanced Broadcasting Example
+#### Example 5: Broadcasting with Higher Dimensions
 ```python
 # Creating a 3D array and a 1D array
 array_3d = np.array([[[1, 2, 3]], [[4, 5, 6]], [[7, 8, 9]]])  # Shape: (3, 1, 3)
