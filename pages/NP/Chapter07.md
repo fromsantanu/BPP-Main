@@ -80,31 +80,32 @@ result_cos = np.cos(angles)
 print("Cosine:", result_cos)
 ```
 
-Exponential and Logarithmic Functions
-np.exp
+## Exponential and Logarithmic Functions
+### np.exp
 The np.exp function computes the exponential of each element in the array.
 
-python
-Copy code
+```python
 # Creating an array
 values = np.array([1, 2, 3])
 
 # Exponential of values
 result_exp = np.exp(values)
 print("Exponential:", result_exp)
-np.log
+```
+
+### np.log
 The np.log function computes the natural logarithm (base e) of each element in the array.
 
-python
-Copy code
+```python
 # Natural logarithm of values
 result_log = np.log(values)
 print("Natural Logarithm:", result_log)
-Example Code
+```
+
+## Example Code
 Here are comprehensive examples demonstrating the use of various ufuncs:
 
-python
-Copy code
+```python
 import numpy as np
 
 # Creating arrays for arithmetic operations
@@ -143,5 +144,7 @@ print("Exponential:", result_exp)
 
 result_log = np.log(values)
 print("Natural Logarithm:", result_log)
-Summary
+```
+
+## Summary
 Universal functions (ufuncs) in NumPy provide efficient, element-wise operations for a wide range of mathematical computations. By using ufuncs, you can perform complex calculations with simple and readable code, leveraging the full power of NumPy for numerical computing.
