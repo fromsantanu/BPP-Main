@@ -7,54 +7,54 @@
 
 ## Pandas Data Structures
 ### Series
-- [Creating a Series](#)
-- [Accessing data in a Series](#)
-- [Series operations](#)
+- [Creating a Series](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter02.md)
+- [Accessing data in a Series](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter02.md)
+- [Series operations](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter02.md)
 ### DataFrame
-- [Creating a DataFrame](#)
-- [Accessing data in a DataFrame](#)
-- [DataFrame operations](#)
+- [Creating a DataFrame](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter03.md)
+- [Accessing data in a DataFrame](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter03.md)
+- [DataFrame operations](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter03.md)
 
 ## Data Input and Output
-- [Reading and writing CSV files](#)
-- [Reading and writing Excel files](#)
-- [Reading and writing JSON files](#)
-- [Reading and writing SQL databases](#)
+- [Reading and writing CSV files](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter04.md)
+- [Reading and writing Excel files](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter04.md)
+- [Reading and writing JSON files](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter04.md)
+- [Reading and writing SQL databases](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter04.md)
 
 ## Data Inspection
-- [Viewing data (head, tail, sample)](#)
-- [Getting DataFrame information (info, describe)](#)
-- [Data selection and filtering](#)
-- [Indexing and selecting data](#)
+- [Viewing data (head, tail, sample)](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter05.md)
+- [Getting DataFrame information (info, describe)](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter05.md)
+- [Data selection and filtering](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter05.md)
+- [Indexing and selecting data](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter05.md)
 
 ## Data Cleaning
-- [Handling missing data](#)
-- [Removing duplicates](#)
-- [Data type conversions](#)
-- [Renaming columns and indexes](#)
+- [Handling missing data](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter06.md)
+- [Removing duplicates](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter06.md)
+- [Data type conversions](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter06.md)
+- [Renaming columns and indexes](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter06.md)
 
 ## Data Transformation
-- [Sorting data](#)
-- [DataFrame merging and joining](#)
-- [Concatenation](#)
-- [Pivot tables and crosstab](#)
-- [Melting and stacking](#)
+- [Sorting data](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter07.md)
+- [DataFrame merging and joining](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter07.md)
+- [Concatenation](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter07.md)
+- [Pivot tables and crosstab](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter07.md)
+- [Melting and stacking](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter07.md)
 
 ## Data Aggregation and Grouping
-- [GroupBy operations](#)
-- [Aggregation functions](#)
-- [Transformation and filtration](#)
-- [Applying custom functions with apply](#)
+- [GroupBy operations](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter08.md)
+- [Aggregation functions](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter08.md)
+- [Transformation and filtration](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter08.md)
+- [Applying custom functions with apply](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter08.md)
 
 ## Date and Time Manipulation
-- [Working with datetime objects](#)
-- [Date range generation](#)
-- [Resampling and frequency conversion](#)
+- [Working with datetime objects](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter09.md)
+- [Date range generation](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter09.md)
+- [Resampling and frequency conversion](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter09.md)
 
 ## Data Visualization with Pandas
-- [Plotting basics](#)
-- [Line plots, bar plots, histograms, box plots](#)
-- [Customizing plots](#)
+- [Plotting basics](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter10.md)
+- [Line plots, bar plots, histograms, box plots](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter10.md)
+- [Customizing plots](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter10.md)
 
 ## Advanced Data Operations
 - [Window functions (rolling, expanding)](#)
