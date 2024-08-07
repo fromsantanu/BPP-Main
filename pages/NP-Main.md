@@ -80,7 +80,7 @@
 - [Preprocessing data](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter22.md)
 - [Working with large datasets](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter22.md)
 ### NumPy in Machine Learning
-- [Data manipulation](#)
+- [Data manipulation](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter23.md)
 - [Preparing datasets for ML algorithms](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter23.md)
 ### NumPy in Scientific Computing
 - [Numerical simulations](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter24.md)
