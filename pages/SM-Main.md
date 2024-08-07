@@ -3,113 +3,113 @@
 ## Introduction to statsmodels
 
 ### Overview and Installation
-- [Introduction to statsmodels](#)
-- [Installation and Setup](#)
+- [Introduction to statsmodels](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter01.md)
+- [Installation and Setup](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter01.md)
 
 ## Data Handling and Preparation
 
 ### Data Input and Management
-- [Importing Data (CSV, Excel, etc.)](#)
-- [Data Preparation and Cleaning](#)
-- [Handling Missing Data](#)
+- [Importing Data (CSV, Excel, etc.)](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter02.md)
+- [Data Preparation and Cleaning](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter02.md)
+- [Handling Missing Data](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter02.md)
 
 ### Exploratory Data Analysis (EDA)
-- [Descriptive Statistics](#)
-- [Data Visualization](#)
-- [Correlation Analysis](#)
+- [Descriptive Statistics](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter03.md)
+- [Data Visualization](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter03.md)
+- [Correlation Analysis](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter03.md)
 
 ## Statistical Models
 
 ### Linear Regression Models
-- [Simple Linear Regression](#)
-- [Multiple Linear Regression](#)
-- [Model Diagnostics and Assumptions](#)
+- [Simple Linear Regression](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter04.md)
+- [Multiple Linear Regression](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter04.md)
+- [Model Diagnostics and Assumptions](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter04.md)
 
 ### Generalized Linear Models (GLM)
-- [Overview of GLMs](#)
-- [Logistic Regression](#)
-- [Poisson Regression](#)
+- [Overview of GLMs](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter05.md)
+- [Logistic Regression](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter05.md)
+- [Poisson Regression](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter05.md)
 
 ### Analysis of Variance (ANOVA)
-- [One-Way ANOVA](#)
-- [Two-Way ANOVA](#)
--[Interpreting ANOVA Results](#)
+- [One-Way ANOVA](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter06.md)
+- [Two-Way ANOVA](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter06.md)
+-[Interpreting ANOVA Results](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter06.md)
 
 ### Time Series Analysis
-- [Time Series Decomposition](#)
-- [Autoregressive (AR) Models](#)
-- [Moving Average (MA) Models](#)
-- [ARIMA and SARIMA Models](#)
-- [Forecasting and Prediction](#)
+- [Time Series Decomposition](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter07.md)
+- [Autoregressive (AR) Models](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter07.md)
+- [Moving Average (MA) Models](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter07.md)
+- [ARIMA and SARIMA Models](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter07.md)
+- [Forecasting and Prediction](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter07.md)
 
 ### Survival Analysis
-- [Kaplan-Meier Estimator](#)
-- [Cox Proportional Hazards Model](#)
-- [Parametric Survival Models](#)
+- [Kaplan-Meier Estimator](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter08.md)
+- [Cox Proportional Hazards Model](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter08.md)
+- [Parametric Survival Models](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter08.md)
 
 ## Advanced Statistical Models
 
 ### Mixed Effects Models
-- [Linear Mixed Effects Models](#)
-- [Generalized Linear Mixed Effects Models](#)
+- [Linear Mixed Effects Models](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter09.md)
+- [Generalized Linear Mixed Effects Models](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter09.md)
 
 ### Bayesian Analysis
-- [Bayesian Linear Regression](#)
-- [Bayesian Hierarchical Models](#)
+- [Bayesian Linear Regression](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter10.md)
+- [Bayesian Hierarchical Models](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter10.md)
 
 ### Principal Component Analysis (PCA)
-- [Performing PCA](#)
-- [Interpreting PCA Results](#)
+- [Performing PCA](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter11.md)
+- [Interpreting PCA Results](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter11.md)
 
 ### Factor Analysis
-- [Exploratory Factor Analysis](#)
-- [Confirmatory Factor Analysis](#)
+- [Exploratory Factor Analysis](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter12.md)
+- [Confirmatory Factor Analysis](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter12.md)
 
 ## Hypothesis Testing and Statistical Inference
 
 ### Parametric Tests
-- [T-tests (One-sample, Two-sample, Paired)](#)
-- [Z-tests](#)
+- [T-tests (One-sample, Two-sample, Paired)](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter13.md)
+- [Z-tests](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter13.md)
 
 ### Non-Parametric Tests
-- [Mann-Whitney U Test](#)
-- [Wilcoxon Signed-Rank Test](#)
-- [Kruskal-Wallis H Test](#)
+- [Mann-Whitney U Test](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter14.md)
+- [Wilcoxon Signed-Rank Test](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter14.md)
+- [Kruskal-Wallis H Test](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter14.md)
 
 ### Chi-Square Tests
-- [Chi-Square Test for Independence](#)
-- [Chi-Square Goodness-of-Fit Test](#)
+- [Chi-Square Test for Independence](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter15.md)
+- [Chi-Square Goodness-of-Fit Test](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter15.md)
 
 ## Model Diagnostics and Evaluation
 
 ### Model Diagnostics
-- [Residual Analysis](#)
-- [Multicollinearity Detection](#)
-- [Heteroscedasticity Tests](#)
+- [Residual Analysis](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter16.md)
+- [Multicollinearity Detection](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter16.md)
+- [Heteroscedasticity Tests](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter16.md)
 
 ### Model Selection and Validation
-- [Cross-Validation](#)
-- [AIC and BIC Criteria](#)
-- [Comparing Models](#)
+- [Cross-Validation](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter17.md)
+- [AIC and BIC Criteria](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter17.md)
+- [Comparing Models](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter17.md)
 
 ## Practical Applications and Case Studies
 
 ### Case Studies in Healthcare and Epidemiology
-- [Analyzing Patient Data](#)
-- [Disease Risk Modeling](#)
-- [Survival Analysis in Clinical Trials](#)
+- [Analyzing Patient Data](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter18.md)
+- [Disease Risk Modeling](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter18.md)
+- [Survival Analysis in Clinical Trials](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter18.md)
 
 ### Project Tutorials
-- [End-to-End Data Analysis Projects](#)
-- [Integrating Data Analysis with Visualization](#)
-- [Reporting and Interpreting Results](#)
+- [End-to-End Data Analysis Projects](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter19.md)
+- [Integrating Data Analysis with Visualization](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter19.md)
+- [Reporting and Interpreting Results](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter19.md)
 
 ## Integration with Other Libraries
 
 ### Integration with Pandas
-- [Using statsmodels with Pandas DataFrames](#)
-- [Data Manipulation and Model Fitting](#)
+- [Using statsmodels with Pandas DataFrames](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter20.md)
+- [Data Manipulation and Model Fitting](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter20.md)
 
 ### Integration with Scikit-Learn
-- [Combining statsmodels and Scikit-Learn](#)
-- [Hybrid Modeling Approaches](#)
+- [Combining statsmodels and Scikit-Learn](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter21.md)
+- [Hybrid Modeling Approaches](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SM/Chapter21.md)
