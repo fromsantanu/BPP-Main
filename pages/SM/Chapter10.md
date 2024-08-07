@@ -1,5 +1,5 @@
 Chapter 10: Bayesian Analysis
-# Overview of Bayesian Analysis
+## Overview of Bayesian Analysis
 
 Bayesian analysis is a statistical paradigm that involves updating the probability of a hypothesis as more evidence or information becomes available. It is based on Bayes' theorem:
 
