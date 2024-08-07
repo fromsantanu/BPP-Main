@@ -57,14 +57,14 @@
 - [Customizing plots](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter10.md)
 
 ## Advanced Data Operations
-- [Window functions (rolling, expanding)](#)
-- [Multi-indexing](#)
-- [Working with categorical data](#)
+- [Window functions (rolling, expanding)](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter11.md)
+- [Multi-indexing](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter11.md)
+- [Working with categorical data](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter11.md)
 
 ## Performance and Optimization
-- [Memory usage and optimization](#)
-- [Using eval and query for performance](#)
+- [Memory usage and optimization](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter12.md)
+- [Using eval and query for performance](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter12.md)
 
 ## Case Studies and Real-World Applications
-- [Practical examples and case studies in healthcare and epidemiology](#)
-- [End-to-end data analysis projects](#)
+- [Practical examples and case studies in healthcare and epidemiology](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter13.md)
+- [End-to-end data analysis projects](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter13.md)
