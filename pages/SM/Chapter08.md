@@ -115,6 +115,7 @@ plt.show()
 
 # Summary of the model
 print(ef.summary)
+```
 
 ## Example: Complete Workflow
 Here is a complete example that demonstrates Kaplan-Meier estimator, Cox Proportional Hazards model, and parametric survival models.
