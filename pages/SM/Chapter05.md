@@ -11,7 +11,7 @@ Generalized Linear Models (GLMs) are an extension of linear regression models th
 
 The general form of a GLM is:
 
-$\[ g(\mu) = \mathbf{X}\beta \]$
+$g(\mu) = \mathbf{X}\beta$
 
 Where:
 - $\( g \)$ is the link function.
@@ -23,7 +23,7 @@ Where:
 
 Logistic regression is a type of GLM used when the dependent variable is binary (0 or 1). It uses the logit link function:
 
-$\[ \text{logit}(\pi) = \log \left( \frac{\pi}{1 - \pi} \right) \]$
+$\text{logit}(\pi) = \log \left( \frac{\pi}{1 - \pi} \right)$
 
 Where $\( \pi \)$ is the probability of the dependent variable being 1.
 
