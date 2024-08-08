@@ -1,12 +1,11 @@
-Annotations and Text
+# Annotations and Text
 Adding text and annotations to your plots can provide additional context and make them more informative. This chapter will cover adding text and annotations, arrows and highlighting specific points, and using mathematical expressions with LaTeX in Matplotlib.
 
-Adding Text and Annotations
-Adding Text
+## Adding Text and Annotations
+### Adding Text
 You can add text to your plots using the text function, which places text at a specified location.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -27,11 +26,12 @@ plt.text(2, 0.5, "Hello, World!", fontsize=12, color='red')
 
 # Display the plot
 plt.show()
-Adding Annotations
+```
+
+### Adding Annotations
 The annotate function allows you to add more detailed annotations, including arrows pointing to specific points.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -53,12 +53,13 @@ plt.annotate('Local Max', xy=(1.57, 1), xytext=(3, 1.5),
 
 # Display the plot
 plt.show()
-Arrows and Highlighting Specific Points
-Highlighting Points with Arrows
+```
+
+## Arrows and Highlighting Specific Points
+### Highlighting Points with Arrows
 You can use the annotate function to highlight specific points with arrows.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -82,11 +83,12 @@ for point in points:
 
 # Display the plot
 plt.show()
-Using Arrows for Emphasis
+```
+
+### Using Arrows for Emphasis
 Arrows can be used to draw attention to specific features in the plot.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -111,14 +113,15 @@ plt.annotate('', xy=(4.71, -1), xytext=(4.71, 0),
 
 # Display the plot
 plt.show()
-Mathematical Expressions with LaTeX
+```
+
+## Mathematical Expressions with LaTeX
 Matplotlib supports rendering mathematical expressions using LaTeX syntax. This is particularly useful for scientific and engineering plots.
 
-Adding Mathematical Expressions
+### Adding Mathematical Expressions
 You can include LaTeX expressions in titles, labels, and text using the $ symbol.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -139,11 +142,12 @@ plt.text(5, 0, r'$y = \sin(x)$', fontsize=12, color='purple')
 
 # Display the plot
 plt.show()
-Complex Mathematical Expressions
+```
+
+### Complex Mathematical Expressions
 You can use more complex LaTeX expressions for detailed annotations.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -164,4 +168,6 @@ plt.text(2, 0.5, r'$y = \sin(x) \, \text{where} \, x \in [0, 2\pi]$', fontsize=1
 
 # Display the plot
 plt.show()
+```
+
 In this chapter, we have explored how to add text and annotations to your plots in Matplotlib. We covered adding text and annotations, using arrows to highlight specific points, and incorporating mathematical expressions with LaTeX. These techniques will help you create more informative and precise visualizations for your data analysis projects.
