@@ -1,12 +1,12 @@
-Chapter 3: Exploratory Data Analysis (EDA)
-Descriptive Statistics
+# Chapter 3: Exploratory Data Analysis (EDA)
+
+## Descriptive Statistics
 Descriptive statistics summarize the main features of a dataset, providing simple summaries about the sample and the measures. This can be done using pandas' built-in functions.
 
-Summary Statistics
+### Summary Statistics
 You can quickly get summary statistics for your DataFrame using the describe method.
 
-python
-Copy code
+```python
 import pandas as pd
 
 # Example DataFrame
@@ -19,11 +19,12 @@ df = pd.DataFrame(data)
 
 # Summary statistics
 print(df.describe())
-Individual Statistics
+```
+
+### Individual Statistics
 You can also calculate individual statistics such as mean, median, and standard deviation.
 
-python
-Copy code
+```python
 # Mean
 print(df.mean())
 
@@ -32,6 +33,8 @@ print(df.median())
 
 # Standard Deviation
 print(df.std())
+```
+
 Frequency Counts
 For categorical data, you can use the value_counts method to get the frequency of each category.
 
