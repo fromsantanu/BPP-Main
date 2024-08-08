@@ -1,10 +1,12 @@
-Chapter 13: Case Studies and Real-World Applications
-13.1 Practical Examples and Case Studies in Healthcare and Epidemiology
-Example 1: Analyzing Hospital Admission Data
-Creating a sample DataFrame:
+# Chapter 13: Case Studies and Real-World Applications
 
-python
-Copy code
+## 13.1 Practical Examples and Case Studies in Healthcare and Epidemiology
+
+### Example 1: Analyzing Hospital Admission Data
+
+#### Creating a sample DataFrame:
+
+```python
 import pandas as pd
 
 # Sample data for hospital admissions
@@ -22,25 +24,29 @@ df = pd.DataFrame(data)
 df['AdmissionDate'] = pd.to_datetime(df['AdmissionDate'])
 df['DischargeDate'] = pd.to_datetime(df['DischargeDate'])
 print(df)
-Calculating length of stay:
+```
 
-python
-Copy code
+#### Calculating length of stay:
+
+```python
 # Calculating the length of stay
 df['LengthOfStay'] = (df['DischargeDate'] - df['AdmissionDate']).dt.days
 print(df)
-Analyzing the average length of stay by diagnosis:
+```
 
-python
-Copy code
+#### Analyzing the average length of stay by diagnosis:
+
+```python
 # Grouping by diagnosis and calculating average length of stay
 avg_length_of_stay = df.groupby('Diagnosis')['LengthOfStay'].mean()
 print(avg_length_of_stay)
-Example 2: Monitoring Disease Incidence Over Time
-Creating a sample DataFrame:
+```
 
-python
-Copy code
+### Example 2: Monitoring Disease Incidence Over Time
+
+#### Creating a sample DataFrame:
+
+```python
 # Sample data for disease incidence
 data = {
     'Date': pd.date_range(start='2023-01-01', periods=100, freq='D'),
@@ -48,19 +54,21 @@ data = {
 }
 df = pd.DataFrame(data)
 print(df)
-Plotting disease incidence over time:
+```
 
-python
-Copy code
+#### Plotting disease incidence over time:
+
+```python
 # Plotting disease incidence over time
 df.plot(x='Date', y='Incidence', kind='line', title='Disease Incidence Over Time')
 plt.xlabel('Date')
 plt.ylabel('Number of Cases')
 plt.show()
-Resampling data to weekly incidence:
+```
 
-python
-Copy code
+#### Resampling data to weekly incidence:
+
+```python
 # Resampling data to weekly incidence
 df_weekly = df.resample('W', on='Date').sum()
 print(df_weekly)
@@ -70,14 +78,17 @@ df_weekly.plot(y='Incidence', kind='line', title='Weekly Disease Incidence')
 plt.xlabel('Week')
 plt.ylabel('Number of Cases')
 plt.show()
-13.2 End-to-End Data Analysis Projects
-Project: Analyzing and Visualizing Dengue Fever Outbreak
-Step 1: Data Collection
+```
 
-Creating a sample DataFrame:
+## 13.2 End-to-End Data Analysis Projects
 
-python
-Copy code
+### Project: Analyzing and Visualizing Dengue Fever Outbreak
+
+#### Step 1: Data Collection
+
+##### Creating a sample DataFrame:
+
+```python
 # Sample data for dengue fever cases
 data = {
     'Date': pd.date_range(start='2023-01-01', periods=200, freq='D'),
@@ -86,32 +97,35 @@ data = {
 }
 df = pd.DataFrame(data)
 print(df)
-Step 2: Data Cleaning
+```
 
-python
-Copy code
+##### Step 2: Data Cleaning
+
+```python
 # Checking for missing values
 print(df.isnull().sum())
 
 # No missing values in this sample dataset
-Step 3: Data Analysis
+```
 
-Aggregating data by region and month:
+##### Step 3: Data Analysis
 
-python
-Copy code
+###### Aggregating data by region and month:
+
+```python
 # Adding a month column
 df['Month'] = df['Date'].dt.to_period('M')
 
 # Grouping by region and month
 monthly_cases = df.groupby(['Region', 'Month'])['Cases'].sum().reset_index()
 print(monthly_cases)
-Step 4: Data Visualization
+```
 
-Plotting monthly cases by region:
+##### Step 4: Data Visualization
 
-python
-Copy code
+###### Plotting monthly cases by region:
+
+```python
 # Plotting monthly cases by region
 import matplotlib.pyplot as plt
 
@@ -126,12 +140,13 @@ ax.set_ylabel('Number of Cases')
 ax.legend()
 plt.xticks(rotation=45)
 plt.show()
-Step 5: Reporting
+```
 
-Generating a summary report:
+##### Step 5: Reporting
 
-python
-Copy code
+###### Generating a summary report:
+
+```python
 # Summary report
 total_cases = df['Cases'].sum()
 print(f'Total Dengue Fever Cases: {total_cases}')
@@ -139,10 +154,11 @@ print(f'Total Dengue Fever Cases: {total_cases}')
 cases_by_region = df.groupby('Region')['Cases'].sum()
 print('Cases by Region:')
 print(cases_by_region)
-Generating insights and recommendations:
+```
 
-python
-Copy code
+###### Generating insights and recommendations:
+
+```python
 # Insights and recommendations
 print("Insights:")
 print("1. The highest number of cases occurred in the East region.")
@@ -151,4 +167,6 @@ print("2. There is a noticeable increase in cases during the mid-year months.")
 print("\nRecommendations:")
 print("1. Increase awareness and preventive measures in the East region.")
 print("2. Implement mosquito control programs before the peak months.")
+```
+
 By the end of this chapter, you should be able to conduct complete data analysis projects from data collection to reporting. These real-world applications and case studies in healthcare and epidemiology will help you apply your Pandas skills to meaningful data analysis tasks.
