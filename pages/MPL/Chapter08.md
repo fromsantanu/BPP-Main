@@ -1,14 +1,13 @@
-Interactive Plotting
+# Interactive Plotting
 Interactive plotting can enhance your data analysis experience by allowing you to explore data in real-time. Matplotlib provides various tools for creating interactive plots, including matplotlib.widgets for adding interactive elements, %matplotlib notebook for interactive plots in Jupyter notebooks, and integration with Jupyter Notebooks.
 
-Using matplotlib.widgets
+## Using matplotlib.widgets
 Matplotlib offers a set of widgets for adding interactive elements like sliders, buttons, and checkboxes to your plots. These widgets can be used to update plots dynamically based on user input.
 
-Sliders
+### Sliders
 Sliders are useful for adjusting plot parameters interactively.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
 import numpy as np
@@ -42,11 +41,12 @@ plt.ylabel("Y-axis")
 
 # Display the plot
 plt.show()
-Buttons
+```
+
+### Buttons
 Buttons can be used to trigger events or update the plot based on user actions.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Button
 import numpy as np
@@ -77,12 +77,14 @@ plt.ylabel("Y-axis")
 
 # Display the plot
 plt.show()
-Interactive Plots with %matplotlib notebook
+```
+
+## Interactive Plots with %matplotlib notebook
 The %matplotlib notebook magic command enables interactive plots directly within Jupyter notebooks.
 
-Enabling Interactive Mode
-python
-Copy code
+### Enabling Interactive Mode
+
+```python
 %matplotlib notebook
 import matplotlib.pyplot as plt
 import numpy as np
@@ -102,14 +104,15 @@ plt.ylabel("Y-axis")
 
 # Display the plot
 plt.show()
-Integrating with Jupyter Notebooks
+```
+
+## Integrating with Jupyter Notebooks
 Matplotlib integrates seamlessly with Jupyter Notebooks, allowing for rich interactive plots.
 
-Interactive Widgets with ipywidgets
+### Interactive Widgets with ipywidgets
 Using ipywidgets, you can create interactive controls for your plots.
 
-python
-Copy code
+```python
 %matplotlib notebook
 import matplotlib.pyplot as plt
 import numpy as np
@@ -139,11 +142,12 @@ plt.title("Interactive Plot with ipywidgets")
 plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
 plt.show()
-Interactive Plot Example with ipywidgets
+```
+
+### Interactive Plot Example with ipywidgets
 Combining sliders and buttons for more complex interactions.
 
-python
-Copy code
+```python
 %matplotlib notebook
 import matplotlib.pyplot as plt
 import numpy as np
@@ -175,4 +179,6 @@ plt.title("Interactive Plot with Multiple Widgets")
 plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
 plt.show()
+```
+
 In this chapter, we have explored interactive plotting with Matplotlib. We covered using matplotlib.widgets for interactive elements like sliders and buttons, enabling interactive plots with %matplotlib notebook, and integrating Matplotlib with Jupyter Notebooks using ipywidgets. These tools will help you create dynamic and interactive visualizations for your data analysis projects.
