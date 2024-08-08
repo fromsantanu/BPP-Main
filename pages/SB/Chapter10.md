@@ -1,12 +1,11 @@
-Integration with Matplotlib
+# Integration with Matplotlib
 Seaborn is built on top of Matplotlib, making it easy to combine the strengths of both libraries to create powerful and customized visualizations. This chapter explores how to integrate Seaborn and Matplotlib, customize Seaborn plots with Matplotlib, create complex visualizations, and provides practical applications and case studies.
 
-Combining Seaborn and Matplotlib
+## Combining Seaborn and Matplotlib
 Seaborn plots can be easily combined with Matplotlib's functionalities to enhance and customize visualizations.
 
-Basic Integration
-python
-Copy code
+### Basic Integration
+```python
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -21,12 +20,13 @@ plt.title("Histogram of Total Bill with KDE")
 plt.xlabel("Total Bill ($)")
 plt.ylabel("Frequency")
 plt.show()
-Customizing Seaborn Plots with Matplotlib
+```
+
+## Customizing Seaborn Plots with Matplotlib
 You can use Matplotlib's functions to customize Seaborn plots, such as adding annotations, changing figure sizes, and modifying axis properties.
 
-Adding Annotations
-python
-Copy code
+### Adding Annotations
+```python
 # Create a Seaborn scatter plot
 sns.scatterplot(data=tips, x="total_bill", y="tip", hue="time")
 
@@ -37,9 +37,10 @@ plt.ylabel("Tip ($)")
 plt.annotate("Highest Tip", xy=(50, 10), xytext=(40, 12),
              arrowprops=dict(facecolor='black', arrowstyle="->"))
 plt.show()
-Changing Figure Size
-python
-Copy code
+```
+
+### Changing Figure Size
+```python
 # Create a Seaborn box plot
 plt.figure(figsize=(10, 6))
 sns.boxplot(data=tips, x="day", y="total_bill", hue="smoker")
@@ -47,9 +48,10 @@ plt.title("Box Plot of Total Bill by Day and Smoker")
 plt.xlabel("Day of the Week")
 plt.ylabel("Total Bill ($)")
 plt.show()
-Modifying Axis Properties
-python
-Copy code
+```
+
+### Modifying Axis Properties
+```python
 # Create a Seaborn violin plot
 sns.violinplot(data=tips, x="day", y="total_bill", hue="sex", split=True)
 
@@ -60,12 +62,13 @@ plt.ylabel("Total Bill ($)")
 plt.xticks(rotation=45)
 plt.grid(True)
 plt.show()
-Creating Complex Visualizations
+```
+
+## Creating Complex Visualizations
 Combining Seaborn and Matplotlib allows you to create complex and detailed visualizations that are highly customizable.
 
-Complex Example: Multi-Faceted Plot with Annotations
-python
-Copy code
+### Complex Example: Multi-Faceted Plot with Annotations
+```python
 # Create a FacetGrid with customized legends, titles, and annotations
 g = sns.FacetGrid(tips, col="time", hue="sex", height=5, aspect=1.2)
 g.map(sns.scatterplot, "total_bill", "tip", alpha=0.7)
@@ -80,10 +83,11 @@ axes[0].annotate("High Tip", xy=(50, 10), xytext=(40, 12),
                  arrowprops=dict(facecolor='black', arrowstyle="->"))
 
 plt.show()
-Practical Applications and Case Studies
-Case Study 1: Analyzing Flight Data
-python
-Copy code
+```
+
+## Practical Applications and Case Studies
+### Case Study 1: Analyzing Flight Data
+```python
 # Load the flights dataset
 flights = sns.load_dataset("flights")
 
@@ -99,9 +103,10 @@ plt.title("Heatmap of Passengers Over Time")
 plt.xlabel("Year")
 plt.ylabel("Month")
 plt.show()
-Case Study 2: Visualizing Iris Dataset Relationships
-python
-Copy code
+```
+
+### Case Study 2: Visualizing Iris Dataset Relationships
+```python
 # Load the iris dataset
 iris = sns.load_dataset("iris")
 
@@ -116,9 +121,10 @@ for ax in g.axes.flatten():
     ax.set_title(ax.get_title(), fontsize=14)
 
 plt.show()
-Case Study 3: Custom Dashboard for Tips Data
-python
-Copy code
+```
+
+### Case Study 3: Custom Dashboard for Tips Data
+```python
 # Create a figure with subplots
 fig, ax = plt.subplots(2, 2, figsize=(14, 12))
 
@@ -150,5 +156,7 @@ ax[1, 1].set_ylabel("Tip ($)")
 plt.tight_layout()
 plt.suptitle("Custom Dashboard for Tips Data", y=1.02)
 plt.show()
-Conclusion
+```
+
+## Conclusion
 Integrating Seaborn with Matplotlib provides powerful tools for creating highly customizable and complex visualizations. By combining the strengths of both libraries, you can create detailed, informative, and visually appealing plots for various data analysis tasks. This chapter covered the basics of integration, customization techniques, and practical applications through case studies, demonstrating the flexibility and power of Seaborn and Matplotlib together.
