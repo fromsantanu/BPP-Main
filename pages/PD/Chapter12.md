@@ -1,11 +1,10 @@
-Chapter 12: Performance and Optimization
-12.1 Memory Usage and Optimization
+# Chapter 12: Performance and Optimization
+## 12.1 Memory Usage and Optimization
 Understanding and optimizing memory usage can significantly improve the performance of your data processing tasks.
 
-Creating a sample DataFrame:
+### Creating a sample DataFrame:
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 
@@ -17,10 +16,11 @@ data = {
 }
 df = pd.DataFrame(data)
 print(df.info())
-Optimizing data types:
+```
 
-python
-Copy code
+### Optimizing data types:
+
+```python
 # Optimizing integer columns
 df['A'] = df['A'].astype('int8')
 
@@ -31,10 +31,11 @@ df['B'] = df['B'].astype('float32')
 df['C'] = df['C'].astype('category')
 
 print(df.info())
-Memory usage before and after optimization:
+```
 
-python
-Copy code
+### Memory usage before and after optimization:
+
+```python
 # Memory usage before optimization
 print("Memory usage before optimization:")
 print(df.memory_usage(deep=True))
@@ -47,13 +48,14 @@ df['C'] = df['C'].astype('category')
 # Memory usage after optimization
 print("Memory usage after optimization:")
 print(df.memory_usage(deep=True))
-12.2 Using eval and query for Performance
+```
+
+## 12.2 Using eval and query for Performance
 Pandas' eval and query methods allow for efficient operations on DataFrames by using a more optimized and faster backend.
 
-Creating a sample DataFrame:
+### Creating a sample DataFrame:
 
-python
-Copy code
+```python
 # Creating a sample DataFrame
 data = {
     'A': np.random.randint(1, 100, size=100000),
@@ -63,17 +65,19 @@ data = {
 }
 df = pd.DataFrame(data)
 print(df.head())
-Using eval for efficient calculations:
+```
 
-python
-Copy code
+### Using eval for efficient calculations:
+
+```python
 # Performing arithmetic operations using eval
 df['E'] = pd.eval('df.A + df.B - df.C * df.D / 2')
 print(df.head())
-Comparing eval with traditional approach:
+```
 
-python
-Copy code
+### Comparing eval with traditional approach:
+
+```python
 # Traditional approach
 df['E_traditional'] = df['A'] + df['B'] - df['C'] * df['D'] / 2
 
@@ -81,10 +85,11 @@ df['E_traditional'] = df['A'] + df['B'] - df['C'] * df['D'] / 2
 df['E_eval'] = pd.eval('df.A + df.B - df.C * df.D / 2')
 
 print(df.head())
-Using query for efficient filtering:
+```
 
-python
-Copy code
+### Using query for efficient filtering:
+
+```python
 # Traditional approach
 filtered_traditional = df[(df['A'] > 50) & (df['B'] < 50)]
 print(filtered_traditional.head())
@@ -92,10 +97,11 @@ print(filtered_traditional.head())
 # Using query
 filtered_query = df.query('A > 50 & B < 50')
 print(filtered_query.head())
-Performance comparison:
+```
 
-python
-Copy code
+### Performance comparison:
+
+```python
 import time
 
 # Timing traditional approach
@@ -109,4 +115,6 @@ start = time.time()
 filtered_query = df.query('A > 50 & B < 50')
 end = time.time()
 print(f"Query approach time: {end - start} seconds")
+```
+
 By the end of this chapter, you should be able to optimize the performance of your Pandas operations by reducing memory usage and utilizing the eval and query methods for efficient calculations and filtering. These skills are essential for handling large datasets and improving the speed of your data processing tasks.
