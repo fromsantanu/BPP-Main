@@ -1,12 +1,11 @@
-Subplots and Layouts
+# Subplots and Layouts
 Creating multiple plots in a single figure can help you compare different datasets or visualize different aspects of the same data. Matplotlib offers several ways to create subplots and custom layouts, making it a powerful tool for complex data visualization.
 
-Creating Subplots with subplot and subplots
-Using subplot
+## Creating Subplots with subplot and subplots
+### Using subplot
 The subplot function allows you to create a grid of subplots within a single figure. The function takes three arguments: the number of rows, the number of columns, and the index of the subplot.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -29,11 +28,12 @@ plt.title("Cosine Wave")
 # Adjusting layout
 plt.tight_layout()
 plt.show()
-Using subplots
+```
+
+### Using subplots
 The subplots function is more flexible and convenient for creating a grid of subplots. It returns a figure and an array of axes objects.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -56,12 +56,14 @@ axs[1].set_title("Cosine Wave")
 # Adjusting layout
 plt.tight_layout()
 plt.show()
-GridSpec and Custom Layouts
-Using GridSpec
+```
+
+## GridSpec and Custom Layouts
+
+### Using GridSpec
 GridSpec allows for more complex and custom subplot layouts than subplot and subplots.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 import numpy as np
@@ -98,12 +100,13 @@ ax5.set_title("Negative Cosine Wave")
 # Adjusting layout
 plt.tight_layout()
 plt.show()
-Sharing Axes
-Sharing Axes in Subplots
+```
+
+## Sharing Axes
+### Sharing Axes in Subplots
 Sharing axes can be useful when you want to compare plots directly. You can share the x-axis, y-axis, or both.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -129,9 +132,11 @@ fig.text(0.04, 0.5, 'Y-axis', va='center', rotation='vertical')
 # Adjusting layout
 plt.tight_layout()
 plt.show()
-Sharing Both Axes
-python
-Copy code
+```
+
+### Sharing Both Axes
+
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -164,4 +169,6 @@ fig.text(0.04, 0.5, 'Y-axis', va='center', rotation='vertical')
 # Adjusting layout
 plt.tight_layout()
 plt.show()
+```
+
 In this chapter, we have explored how to create and customize subplots and layouts in Matplotlib. We covered the use of subplot and subplots, GridSpec for custom layouts, and sharing axes between subplots. These techniques will help you create complex and informative visualizations for your data analysis needs.
