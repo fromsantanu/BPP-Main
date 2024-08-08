@@ -1,4 +1,4 @@
-# Seaborn ![Static Badge](https://img.shields.io/badge/Work%20In%20Progress-008000)
+# Seaborn 
 
 ## Introduction to Seaborn
 - [Overview and Installation](https://github.com/fromsantanu/BPP-Main/blob/main/pages/SB/Chapter01.md)
