@@ -1,4 +1,4 @@
-# Matplotlib ![Static Badge](https://img.shields.io/badge/Work%20In%20Progress-008000) 
+# Matplotlib 
 ## Introduction to Matplotlib
 - [Overview and Installation](https://github.com/fromsantanu/BPP-Main/blob/main/pages/MPL/Chapter01.md)
 - [Basic Plotting: Line, Scatter, and Bar Plots](https://github.com/fromsantanu/BPP-Main/blob/main/pages/MPL/Chapter01.md)
