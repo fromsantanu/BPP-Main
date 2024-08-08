@@ -1,32 +1,24 @@
-Chapter 5: Generalized Linear Models (GLM)
-Overview of GLMs
+# Chapter 5: Generalized Linear Models (GLM)
+
+## Overview of GLMs
 Generalized Linear Models (GLMs) are an extension of linear regression models that allow the dependent variable to have a distribution other than the normal distribution. GLMs consist of three components:
 
-Random Component: Specifies the distribution of the dependent variable (e.g., normal, binomial, Poisson).
-Systematic Component: Linear predictor which is a linear combination of the independent variables.
-Link Function: Connects the mean of the dependent variable to the linear predictor.
-GLM Formula
+- Random Component: Specifies the distribution of the dependent variable (e.g., normal, binomial, Poisson).
+- Systematic Component: Linear predictor which is a linear combination of the independent variables.
+- Link Function: Connects the mean of the dependent variable to the linear predictor.
+
+### GLM Formula
+
 The general form of a GLM is:
 
-𝑔
-(
-𝜇
-)
-=
-𝑋
-𝛽
-g(μ)=Xβ
+$\[ g(\mu) = \mathbf{X}\beta \]$
 
 Where:
+- $\( g \)$ is the link function.
+- $\( \mu \)$ is the mean of the dependent variable.
+- $\( \mathbf{X} \)$ is the matrix of independent variables.
+- $\( \beta \)$ is the vector of coefficients.
 
-𝑔
-g is the link function.
-𝜇
-μ is the mean of the dependent variable.
-𝑋
-X is the matrix of independent variables.
-𝛽
-β is the vector of coefficients.
 Logistic Regression
 Logistic regression is a type of GLM used when the dependent variable is binary (0 or 1). It uses the logit link function:
 
