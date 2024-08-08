@@ -1,12 +1,12 @@
-Advanced Plot Types in Matplotlib
+# Advanced Plot Types in Matplotlib
 Matplotlib offers a variety of advanced plot types for in-depth data analysis. This chapter will cover histograms and density plots, pie and donut charts, and boxplots and violin plots.
 
-Histograms and Density Plots
-Histograms
+## Histograms and Density Plots
+
+### Histograms
 Histograms are used to represent the distribution of a dataset by dividing it into bins and counting the number of data points in each bin.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -23,11 +23,12 @@ plt.ylabel("Frequency")
 
 # Display the plot
 plt.show()
-Density Plots
+```
+
+### Density Plots
 Density plots, or kernel density estimates (KDE), represent the data distribution as a continuous probability density curve.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
@@ -45,12 +46,14 @@ plt.ylabel("Density")
 
 # Display the plot
 plt.show()
-Pie and Donut Charts
-Pie Charts
+```
+
+## Pie and Donut Charts
+
+### Pie Charts
 Pie charts show the proportions of a whole by dividing it into slices.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 
 # Data for plotting
@@ -68,11 +71,12 @@ plt.title("Pie Chart")
 # Display the plot
 plt.axis('equal')
 plt.show()
-Donut Charts
+```
+
+### Donut Charts
 Donut charts are similar to pie charts but have a central hole, making them look like a donut.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 
 # Data for plotting
@@ -93,12 +97,14 @@ plt.title("Donut Chart")
 # Display the plot
 plt.axis('equal')
 plt.show()
-Boxplots and Violin Plots
-Boxplots
+```
+
+## Boxplots and Violin Plots
+
+### Boxplots
 Boxplots are used to display the distribution of a dataset based on five summary statistics: minimum, first quartile (Q1), median, third quartile (Q3), and maximum.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -115,11 +121,12 @@ plt.ylabel("Value")
 
 # Display the plot
 plt.show()
-Violin Plots
+```
+
+### Violin Plots
 Violin plots combine the features of boxplots and density plots. They show the distribution of the data across different categories.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
@@ -137,4 +144,6 @@ plt.ylabel("Value")
 
 # Display the plot
 plt.show()
+```
+
 In this chapter, we explored various advanced plot types in Matplotlib, including histograms, density plots, pie and donut charts, and boxplots and violin plots. These plot types can help you perform more detailed and nuanced data analysis.
