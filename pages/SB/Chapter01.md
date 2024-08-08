@@ -102,7 +102,7 @@ sns.scatterplot(data=tips, x="total_bill", y="tip", hue="time")
 plt.title("Scatter Plot of Total Bill vs Tip")
 plt.show()
 ```
-#### As you can see, the Seaborn example is simpler and produces a plot with better aesthetics by default.
+As you can see, the Seaborn example is simpler and produces a plot with better aesthetics by default.
 
 ## Conclusion
 Both Seaborn and Matplotlib are powerful tools for data visualization in Python. Understanding the strengths and use cases of each can help you choose the right tool for your specific needs. Seaborn is excellent for quick, attractive statistical plots, while Matplotlib provides the flexibility and control needed for highly customized visualizations.
