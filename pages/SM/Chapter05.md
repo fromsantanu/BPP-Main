@@ -19,31 +19,13 @@ Where:
 - $\( \mathbf{X} \)$ is the matrix of independent variables.
 - $\( \beta \)$ is the vector of coefficients.
 
-Logistic Regression
+### Logistic Regression
+
 Logistic regression is a type of GLM used when the dependent variable is binary (0 or 1). It uses the logit link function:
 
-logit
-(
-𝜋
-)
-=
-log
-⁡
-(
-𝜋
-1
-−
-𝜋
-)
-logit(π)=log( 
-1−π
-π
-​
- )
+$\[ \text{logit}(\pi) = \log \left( \frac{\pi}{1 - \pi} \right) \]$
 
-Where 
-𝜋
-π is the probability of the dependent variable being 1.
+Where $\( \pi \)$ is the probability of the dependent variable being 1.
 
 Example: Predicting Binary Outcome
 Let's use a hypothetical dataset to demonstrate logistic regression.
