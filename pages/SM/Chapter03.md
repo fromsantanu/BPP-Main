@@ -35,11 +35,10 @@ print(df.median())
 print(df.std())
 ```
 
-Frequency Counts
+### Frequency Counts
 For categorical data, you can use the value_counts method to get the frequency of each category.
 
-python
-Copy code
+```python
 # Example categorical DataFrame
 data = {
     'Category': ['A', 'B', 'A', 'C', 'B', 'A', 'C']
@@ -48,14 +47,15 @@ df = pd.DataFrame(data)
 
 # Frequency counts
 print(df['Category'].value_counts())
-Data Visualization
+```
+
+## Data Visualization
 Data visualization helps in understanding the distribution, trends, and patterns in your data. The matplotlib and seaborn libraries are commonly used for this purpose.
 
-Histograms
+### Histograms
 Histograms are used to visualize the distribution of a single numerical variable.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 
 # Example DataFrame
@@ -70,21 +70,23 @@ plt.xlabel('Value')
 plt.ylabel('Frequency')
 plt.title('Histogram of A')
 plt.show()
-Box Plots
+```
+
+### Box Plots
 Box plots provide a summary of a set of data values, showing the median, quartiles, and outliers.
 
-python
-Copy code
+```python
 # Box plot
 plt.boxplot(df['A'])
 plt.xlabel('A')
 plt.title('Box Plot of A')
 plt.show()
-Scatter Plots
+```
+
+### Scatter Plots
 Scatter plots show the relationship between two numerical variables.
 
-python
-Copy code
+```python
 # Example DataFrame
 data = {
     'A': [1, 2, 3, 4, 5],
@@ -98,11 +100,12 @@ plt.xlabel('A')
 plt.ylabel('B')
 plt.title('Scatter Plot of A vs B')
 plt.show()
-Pair Plots
+```
+
+### Pair Plots
 Pair plots are useful for visualizing relationships between multiple pairs of variables in a dataset.
 
-python
-Copy code
+```python
 import seaborn as sns
 
 # Example DataFrame
@@ -116,12 +119,13 @@ df = pd.DataFrame(data)
 # Pair plot
 sns.pairplot(df)
 plt.show()
-Correlation Analysis
+```
+
+## Correlation Analysis
 Correlation analysis measures the relationship between two variables. The corr method in pandas calculates the correlation matrix, showing correlation coefficients between pairs of variables.
 
-Correlation Matrix
-python
-Copy code
+### Correlation Matrix
+```python
 # Example DataFrame
 data = {
     'A': [1, 2, 3, 4, 5],
@@ -132,20 +136,22 @@ df = pd.DataFrame(data)
 
 # Correlation matrix
 print(df.corr())
-Heatmap of Correlation Matrix
+```
+
+### Heatmap of Correlation Matrix
 A heatmap provides a visual representation of the correlation matrix, making it easier to identify strong correlations.
 
-python
-Copy code
+```python
 # Heatmap
 sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
 plt.title('Correlation Matrix Heatmap')
 plt.show()
-Example: Complete Workflow
+```
+
+## Example: Complete Workflow
 Here is a complete example that demonstrates descriptive statistics, data visualization, and correlation analysis.
 
-python
-Copy code
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -194,4 +200,6 @@ print(df.corr())
 sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
 plt.title('Correlation Matrix Heatmap')
 plt.show()
+```
+
 In this chapter, we covered essential techniques for Exploratory Data Analysis (EDA), including descriptive statistics, data visualization, and correlation analysis. These tools help you understand your data better and prepare it for further analysis and modeling.
