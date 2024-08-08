@@ -1,4 +1,4 @@
-# Pandas ![Static Badge](https://img.shields.io/badge/Work%20In%20Progress-008000) 
+# Pandas 
 
 ## Introduction to Pandas
 - [What is Pandas?](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter01.md)
