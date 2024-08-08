@@ -110,5 +110,5 @@ plt.show()
 
 In this example, we used the ticks theme, the deep color palette, and set the context to "notebook" with a slightly larger font scale. This combination results in a clean and visually appealing plot.
 
-Conclusion
+## Conclusion
 Seaborn's built-in datasets and themes provide powerful tools for creating attractive and informative visualizations with minimal effort. By leveraging these features, you can quickly create plots that are both visually appealing and effective at conveying your data's insights. Experiment with different themes, color palettes, and context settings to find the style that best suits your needs.
