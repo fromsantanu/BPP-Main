@@ -1,11 +1,11 @@
-Chapter 11: Advanced Data Operations
-11.1 Window Functions (Rolling, Expanding)
+# Chapter 11: Advanced Data Operations
+
+## 11.1 Window Functions (Rolling, Expanding)
 Window functions allow you to perform operations on a sliding window of data, which is useful for time series analysis and other applications.
 
-Creating a sample DataFrame:
+### Creating a sample DataFrame:
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 
@@ -16,10 +16,11 @@ data = {
 }
 df = pd.DataFrame(data)
 print(df)
-Rolling window:
+```
 
-python
-Copy code
+### Rolling window:
+
+```python
 # Calculating rolling mean with a window size of 3
 df['Rolling_Mean'] = df['Value'].rolling(window=3).mean()
 print(df)
@@ -27,10 +28,11 @@ print(df)
 # Calculating rolling sum with a window size of 3
 df['Rolling_Sum'] = df['Value'].rolling(window=3).sum()
 print(df)
-Expanding window:
+```
 
-python
-Copy code
+### Expanding window:
+
+```python
 # Calculating expanding mean
 df['Expanding_Mean'] = df['Value'].expanding().mean()
 print(df)
@@ -38,13 +40,14 @@ print(df)
 # Calculating expanding sum
 df['Expanding_Sum'] = df['Value'].expanding().sum()
 print(df)
-11.2 Multi-Indexing
+```
+
+## 11.2 Multi-Indexing
 Multi-indexing allows you to work with hierarchical indexing, enabling you to handle more complex data structures.
 
-Creating a MultiIndex DataFrame:
+### Creating a MultiIndex DataFrame:
 
-python
-Copy code
+```python
 # Creating a sample MultiIndex DataFrame
 arrays = [
     ['A', 'A', 'B', 'B'],
@@ -54,19 +57,21 @@ index = pd.MultiIndex.from_arrays(arrays, names=('Group', 'Subgroup'))
 data = {'Value': [10, 20, 30, 40]}
 df_multi = pd.DataFrame(data, index=index)
 print(df_multi)
-Accessing data with MultiIndex:
+```
 
-python
-Copy code
+### Accessing data with MultiIndex:
+
+```python
 # Accessing data for a specific group
 print(df_multi.loc['A'])
 
 # Accessing data for a specific subgroup
 print(df_multi.loc[('A', 'one')])
-Stacking and unstacking:
+```
 
-python
-Copy code
+### Stacking and unstacking:
+
+```python
 # Unstacking the MultiIndex DataFrame
 df_unstacked = df_multi.unstack()
 print(df_unstacked)
@@ -74,13 +79,14 @@ print(df_unstacked)
 # Stacking the DataFrame back
 df_stacked = df_unstacked.stack()
 print(df_stacked)
-11.3 Working with Categorical Data
+```
+
+## 11.3 Working with Categorical Data
 Categorical data is useful for representing a finite number of categories, which can improve performance and reduce memory usage.
 
-Creating a DataFrame with categorical data:
+### Creating a DataFrame with categorical data:
 
-python
-Copy code
+```python
 # Creating a sample DataFrame
 data = {
     'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
@@ -94,10 +100,11 @@ print(df)
 df['Department'] = df['Department'].astype('category')
 print(df)
 print(df.dtypes)
-Using categorical data:
+```
 
-python
-Copy code
+### Using categorical data:
+
+```python
 # Adding a new category
 df['Department'] = df['Department'].cat.add_categories(['Marketing'])
 print(df)
@@ -109,10 +116,11 @@ print(df)
 # Removing unused categories
 df['Department'] = df['Department'].cat.remove_unused_categories()
 print(df)
-Performing operations with categorical data:
+```
 
-python
-Copy code
+### Performing operations with categorical data:
+
+```python
 # Grouping by categorical data
 grouped = df.groupby('Department').mean()
 print(grouped)
@@ -120,4 +128,6 @@ print(grouped)
 # Sorting by categorical data
 df_sorted = df.sort_values(by='Department')
 print(df_sorted)
+```
+
 By the end of this chapter, you should be proficient in using advanced data operations in Pandas, including window functions, multi-indexing, and working with categorical data. These skills are essential for handling more complex data manipulation tasks and improving the efficiency of your data analysis workflows.
