@@ -1,12 +1,11 @@
-Chapter 4: Linear Regression Models
-Simple Linear Regression
+# Chapter 4: Linear Regression Models
+## Simple Linear Regression
 Simple linear regression is used to predict the value of one variable based on the value of another variable. The relationship is modeled using a straight line.
 
-Example: Predicting Weight Based on Height
+### Example: Predicting Weight Based on Height
 Let's use a simple dataset to demonstrate simple linear regression.
 
-python
-Copy code
+```python
 import pandas as pd
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
@@ -38,14 +37,15 @@ plt.xlabel('Height')
 plt.ylabel('Weight')
 plt.title('Simple Linear Regression')
 plt.show()
-Multiple Linear Regression
+```
+
+## Multiple Linear Regression
 Multiple linear regression is used to predict the value of one variable based on the values of two or more other variables.
 
-Example: Predicting Price Based on Size and Location
+### Example: Predicting Price Based on Size and Location
 Let's use a hypothetical dataset to demonstrate multiple linear regression.
 
-python
-Copy code
+```python
 # Example dataset
 data = {
     'Size': [1000, 1500, 2000, 2500, 3000],
@@ -66,14 +66,15 @@ model = sm.OLS(Y, X).fit()
 
 # Summary of the model
 print(model.summary())
-Model Diagnostics and Assumptions
+```
+
+## Model Diagnostics and Assumptions
 After fitting a linear regression model, it is essential to check the model diagnostics and validate the assumptions.
 
-Residual Analysis
+### Residual Analysis
 Residuals are the differences between the observed and predicted values. Analyzing residuals helps in diagnosing the model.
 
-python
-Copy code
+```python
 # Residuals
 residuals = model.resid
 
@@ -84,20 +85,22 @@ plt.ylabel('Residuals')
 plt.title('Residuals vs Fitted Values')
 plt.axhline(0, color='red', linestyle='--')
 plt.show()
-Normality of Residuals
+```
+
+### Normality of Residuals
 The residuals should be normally distributed. A Q-Q plot can help check this assumption.
 
-python
-Copy code
+```python
 # Q-Q plot
 sm.qqplot(residuals, line='45')
 plt.title('Q-Q Plot')
 plt.show()
-Homoscedasticity
+```
+
+### Homoscedasticity
 The residuals should have constant variance. A plot of residuals versus fitted values helps check this assumption.
 
-python
-Copy code
+```python
 # Plotting residuals vs fitted values
 plt.scatter(model.fittedvalues, residuals)
 plt.xlabel('Fitted Values')
@@ -105,21 +108,23 @@ plt.ylabel('Residuals')
 plt.title('Residuals vs Fitted Values')
 plt.axhline(0, color='red', linestyle='--')
 plt.show()
-Independence of Residuals
+```
+
+### Independence of Residuals
 Residuals should be independent of each other. The Durbin-Watson test can help check for autocorrelation.
 
-python
-Copy code
+```python
 # Durbin-Watson test
 from statsmodels.stats.stattools import durbin_watson
 
 dw = durbin_watson(residuals)
 print(f'Durbin-Watson statistic: {dw}')
-Example: Complete Workflow
+```
+
+## Example: Complete Workflow
 Here is a complete example that demonstrates simple linear regression, multiple linear regression, and model diagnostics.
 
-python
-Copy code
+```python
 import pandas as pd
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
@@ -168,4 +173,6 @@ plt.show()
 # Durbin-Watson test
 dw = durbin_watson(residuals)
 print(f'Durbin-Watson statistic: {dw}')
+```
+
 In this chapter, we covered the basics of linear regression models, including simple linear regression and multiple linear regression. We also discussed model diagnostics and assumptions, which are crucial for validating and interpreting regression models.
