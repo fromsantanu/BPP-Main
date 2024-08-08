@@ -1,12 +1,12 @@
-Saving and Exporting Plots
+# Saving and Exporting Plots
 Saving and exporting plots is an essential part of data visualization, allowing you to share your work or include it in reports and presentations. This chapter will cover saving figures in different formats, adjusting resolution and size, and embedding Matplotlib in applications.
 
-Saving Figures in Different Formats
+## Saving Figures in Different Formats
 Matplotlib allows you to save figures in various formats, such as PNG, PDF, SVG, and more, using the savefig function.
 
-Saving as PNG
-python
-Copy code
+### Saving as PNG
+
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -27,9 +27,11 @@ plt.savefig("sine_wave.png")
 
 # Display the plot
 plt.show()
-Saving as PDF
-python
-Copy code
+```
+
+### Saving as PDF
+
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -50,9 +52,11 @@ plt.savefig("sine_wave.pdf")
 
 # Display the plot
 plt.show()
-Saving as SVG
-python
-Copy code
+```
+
+### Saving as SVG
+
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -73,14 +77,15 @@ plt.savefig("sine_wave.svg")
 
 # Display the plot
 plt.show()
-Adjusting Resolution and Size
+```
+
+## Adjusting Resolution and Size
 You can adjust the resolution and size of your figures to suit different requirements, such as high-resolution prints or web display.
 
-Adjusting DPI (Dots Per Inch)
+### Adjusting DPI (Dots Per Inch)
 The DPI setting controls the resolution of the saved figure.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -101,11 +106,12 @@ plt.savefig("sine_wave_high_dpi.png", dpi=300)
 
 # Display the plot
 plt.show()
-Adjusting Figure Size
+```
+
+### Adjusting Figure Size
 You can adjust the figure size using the figsize parameter in the figure function.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -127,14 +133,15 @@ plt.savefig("sine_wave_large.png")
 
 # Display the plot
 plt.show()
-Embedding Matplotlib in Applications
+```
+
+## Embedding Matplotlib in Applications
 Matplotlib can be embedded in various applications, such as graphical user interfaces (GUIs), web applications, and more. Here, we will explore how to embed Matplotlib in a simple Tkinter application.
 
-Embedding in Tkinter
+### Embedding in Tkinter
 Tkinter is a standard Python library for creating GUIs. You can embed Matplotlib plots in Tkinter applications using the FigureCanvasTkAgg class.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
@@ -166,4 +173,6 @@ button.pack(side=tk.BOTTOM)
 
 # Running the Tkinter main loop
 root.mainloop()
+```
+
 In this chapter, we have explored how to save and export plots in different formats, adjust the resolution and size of figures, and embed Matplotlib in applications. These techniques will help you share your visualizations effectively and integrate them into various applications.
