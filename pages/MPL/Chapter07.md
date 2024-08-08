@@ -1,11 +1,10 @@
-3D Plotting with Matplotlib
+# 3D Plotting with Matplotlib
 Matplotlib provides tools for 3D plotting through the mpl_toolkits.mplot3d module. This chapter will introduce 3D plotting, covering how to create 3D line, scatter, and surface plots, and how to customize 3D plots.
 
-Introduction to mpl_toolkits.mplot3d
+## Introduction to mpl_toolkits.mplot3d
 The mpl_toolkits.mplot3d module provides the Axes3D class, which allows for the creation of 3D plots. To use this module, you need to import it and create a 3D axes instance.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
@@ -31,12 +30,14 @@ ax.set_zlabel("Z-axis")
 
 # Display the plot
 plt.show()
-3D Line, Scatter, and Surface Plots
-3D Line Plot
+```
+
+## 3D Line, Scatter, and Surface Plots
+
+### 3D Line Plot
 A 3D line plot is used to visualize data points connected by lines in three-dimensional space.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
@@ -60,11 +61,12 @@ ax.set_zlabel("Z-axis")
 
 # Display the plot
 plt.show()
-3D Scatter Plot
+```
+
+### 3D Scatter Plot
 A 3D scatter plot is used to visualize individual data points in three-dimensional space.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
@@ -87,11 +89,12 @@ ax.set_zlabel("Z-axis")
 
 # Display the plot
 plt.show()
-3D Surface Plot
+```
+
+### 3D Surface Plot
 A 3D surface plot is used to visualize a three-dimensional surface that fits the data points.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
@@ -115,12 +118,14 @@ ax.set_zlabel("Z-axis")
 
 # Display the plot
 plt.show()
-Customizing 3D Plots
-Customizing Colors and Styles
+```
+
+## Customizing 3D Plots
+
+### Customizing Colors and Styles
 You can customize the colors and styles of 3D plots to make them more informative and visually appealing.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
@@ -147,11 +152,12 @@ fig.colorbar(surf, shrink=0.5, aspect=5)
 
 # Display the plot
 plt.show()
-Changing View Angles
+```
+
+### Changing View Angles
 You can change the view angles to get different perspectives of the 3D plot.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
@@ -178,11 +184,12 @@ ax.set_zlabel("Z-axis")
 
 # Display the plot
 plt.show()
-Adding Annotations
+```
+
+### Adding Annotations
 You can add annotations to highlight specific points or areas in the 3D plot.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
@@ -210,4 +217,6 @@ ax.set_zlabel("Z-axis")
 
 # Display the plot
 plt.show()
+```
+
 In this chapter, we have explored 3D plotting with Matplotlib. We covered the basics of the mpl_toolkits.mplot3d module, creating 3D line, scatter, and surface plots, and customizing 3D plots with colors, styles, view angles, and annotations. These tools will help you create informative and visually appealing 3D visualizations for your data analysis projects.
