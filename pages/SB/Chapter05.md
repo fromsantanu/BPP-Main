@@ -50,7 +50,7 @@ plt.show()
 ```
 
 ## Joint and Pair Plots
-## Joint Plots
+### Joint Plots
 Joint plots display the relationship between two variables and their individual distributions. Seaborn provides several types of joint plots, including scatter, hex, and KDE.
 
 ```python
