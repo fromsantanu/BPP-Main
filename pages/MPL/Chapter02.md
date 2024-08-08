@@ -1,12 +1,12 @@
-Customization in Matplotlib
+# Customization in Matplotlib
 Matplotlib provides extensive options for customizing plots to make them more informative and visually appealing. This chapter will cover how to add and customize titles, labels, legends, line styles, colors, markers, axes limits, and ticks.
 
-Titles, Labels, and Legends
-Adding Titles and Labels
+## Titles, Labels, and Legends
+
+### Adding Titles and Labels
 Adding titles and labels to your plots helps in understanding the data being presented.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 
 # Data for plotting
@@ -23,11 +23,12 @@ plt.ylabel("Y-axis Label")
 
 # Display the plot
 plt.show()
-Adding Legends
+```
+
+### Adding Legends
 Legends help in identifying different data series in a plot.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 
 # Data for plotting
@@ -47,14 +48,15 @@ plt.legend()
 
 # Display the plot
 plt.show()
-Line Styles, Colors, and Markers
+```
+
+## Line Styles, Colors, and Markers
 Matplotlib allows customization of line styles, colors, and markers to distinguish different data series or highlight specific data points.
 
-Customizing Line Styles
+### Customizing Line Styles
 You can change the line style using the linestyle parameter.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 
 # Data for plotting
@@ -74,11 +76,12 @@ plt.legend()
 
 # Display the plot
 plt.show()
-Customizing Colors
+```
+
+### Customizing Colors
 You can change the color of lines using the color parameter.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 
 # Data for plotting
@@ -98,11 +101,12 @@ plt.legend()
 
 # Display the plot
 plt.show()
-Customizing Markers
+```
+
+### Customizing Markers
 You can change the marker style using the marker parameter.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 
 # Data for plotting
@@ -122,12 +126,14 @@ plt.legend()
 
 # Display the plot
 plt.show()
-Axes Limits and Ticks
-Setting Axes Limits
+```
+
+## Axes Limits and Ticks
+
+### Setting Axes Limits
 You can set the limits of the axes using the xlim and ylim functions.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 
 # Data for plotting
@@ -148,11 +154,12 @@ plt.ylabel("Y-axis")
 
 # Display the plot
 plt.show()
-Customizing Ticks
+```
+
+### Customizing Ticks
 You can customize the ticks on the axes using the xticks and yticks functions.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 
 # Data for plotting
@@ -173,11 +180,12 @@ plt.ylabel("Y-axis")
 
 # Display the plot
 plt.show()
-Customizing Tick Labels
+```
+
+### Customizing Tick Labels
 You can also customize the tick labels by passing a list of labels.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 
 # Data for plotting
@@ -198,4 +206,6 @@ plt.ylabel("Y-axis")
 
 # Display the plot
 plt.show()
+```
+
 In this chapter, we have explored various customization options in Matplotlib, including adding titles, labels, legends, customizing line styles, colors, markers, and adjusting axes limits and ticks. These tools will help you create more informative and visually appealing plots.
