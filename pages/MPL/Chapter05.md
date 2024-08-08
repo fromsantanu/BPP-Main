@@ -1,20 +1,20 @@
-Styling and Themes
+# Styling and Themes
 Matplotlib offers a variety of ways to style your plots to make them more visually appealing and consistent with the overall design of your project. This chapter will cover using built-in styles, customizing styles and themes, and working with color maps.
 
-Using Built-in Styles
+## Using Built-in Styles
 Matplotlib comes with several built-in styles that can be applied to your plots to give them a consistent look and feel. You can see the available styles by using plt.style.available.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 
 # List available styles
 print(plt.style.available)
-Applying a Built-in Style
+```
+
+## Applying a Built-in Style
 You can apply a style to your plots using plt.style.use.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -33,12 +33,14 @@ plt.ylabel("Y-axis")
 
 # Display the plot
 plt.show()
-Customizing Styles and Themes
-Creating Custom Styles
+```
+
+## Customizing Styles and Themes
+
+### Creating Custom Styles
 You can create your own style by modifying parameters in a dictionary and applying it using plt.rc.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -69,11 +71,12 @@ plt.ylabel("Y-axis")
 
 # Display the plot
 plt.show()
-Using Context Managers for Temporary Styles
+```
+
+### Using Context Managers for Temporary Styles
 You can use context managers to temporarily apply a style for a specific plot or block of code.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -95,14 +98,15 @@ plt.title("Plot with Default Style")
 plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
 plt.show()
-Working with Color Maps
+```
+
+## Working with Color Maps
 Color maps are useful for representing data in plots, especially for heatmaps, contour plots, and other visualizations that require a range of colors.
 
-Using Built-in Color Maps
+### Using Built-in Color Maps
 Matplotlib comes with a variety of built-in color maps that can be applied to your plots.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -119,11 +123,12 @@ plt.colorbar(label='Value')
 
 # Display the plot
 plt.show()
-Creating Custom Color Maps
+```
+
+### Creating Custom Color Maps
 You can create your own color maps using LinearSegmentedColormap.
 
-python
-Copy code
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.colors import LinearSegmentedColormap
@@ -145,12 +150,14 @@ plt.colorbar(label='Value')
 
 # Display the plot
 plt.show()
-Applying Color Maps to Different Plot Types
+```
+
+## Applying Color Maps to Different Plot Types
 Color maps can be applied to various plot types, including heatmaps and contour plots.
 
-Heatmap Example
-python
-Copy code
+### Heatmap Example
+
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -164,9 +171,11 @@ plt.colorbar(label='Value')
 
 # Display the plot
 plt.show()
-Contour Plot Example
-python
-Copy code
+```
+
+### Contour Plot Example
+
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -183,4 +192,6 @@ plt.colorbar(label='Value')
 
 # Display the plot
 plt.show()
+```
+
 In this chapter, we have explored how to style and theme your plots in Matplotlib. We covered using built-in styles, customizing styles and themes, and working with color maps. These tools will help you create visually appealing and consistent visualizations for your data analysis projects.
