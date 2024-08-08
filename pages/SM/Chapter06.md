@@ -1,16 +1,16 @@
-Chapter 6: Analysis of Variance (ANOVA)
-Overview of ANOVA
+# Chapter 6: Analysis of Variance (ANOVA)
+## Overview of ANOVA
 Analysis of Variance (ANOVA) is a statistical method used to compare the means of three or more groups to determine if at least one of the group means is significantly different from the others. ANOVA helps in understanding the influence of one or more categorical independent variables on a continuous dependent variable.
 
-Types of ANOVA
-One-Way ANOVA: Compares the means of three or more independent groups based on one factor.
-Two-Way ANOVA: Compares the means based on two factors and can include interaction effects.
-One-Way ANOVA
+## Types of ANOVA
+- One-Way ANOVA: Compares the means of three or more independent groups based on one factor.
+- Two-Way ANOVA: Compares the means based on two factors and can include interaction effects.
+
+### One-Way ANOVA
 Example: Comparing Means of Three Groups
 Let's use a hypothetical dataset to demonstrate one-way ANOVA.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import statsmodels.api as sm
@@ -34,12 +34,13 @@ plt.show()
 model = ols('Value ~ Group', data=df).fit()
 anova_table = sm.stats.anova_lm(model, typ=2)
 print(anova_table)
-Two-Way ANOVA
+```
+
+### Two-Way ANOVA
 Example: Comparing Means Based on Two Factors
 Let's use a hypothetical dataset to demonstrate two-way ANOVA.
 
-python
-Copy code
+```python
 # Example dataset
 data = {
     'Factor1': np.repeat(['A', 'B'], 15),
@@ -57,31 +58,34 @@ plt.show()
 model = ols('Value ~ Factor1 * Factor2', data=df).fit()
 anova_table = sm.stats.anova_lm(model, typ=2)
 print(anova_table)
-Interpreting ANOVA Results
-One-Way ANOVA Interpretation
+```
+
+## Interpreting ANOVA Results
+### One-Way ANOVA Interpretation
 The output of the one-way ANOVA provides an ANOVA table with the following columns:
 
-sum_sq: Sum of squares.
-df: Degrees of freedom.
-F: F-statistic.
-PR(>F): P-value of the F-statistic.
+- sum_sq: Sum of squares.
+- df: Degrees of freedom.
+- F: F-statistic.
+- PR(>F): P-value of the F-statistic.
+
 Interpret the p-value to determine if there is a statistically significant difference between the groups. A p-value less than 0.05 typically indicates significant differences.
 
-Two-Way ANOVA Interpretation
+### Two-Way ANOVA Interpretation
 The output of the two-way ANOVA provides an ANOVA table with the following columns:
 
-sum_sq: Sum of squares.
-df: Degrees of freedom.
-F: F-statistic.
-PR(>F): P-value of the F-statistic.
+- sum_sq: Sum of squares.
+- df: Degrees of freedom.
+- F: F-statistic.
+- PR(>F): P-value of the F-statistic.
+
 The table will include rows for each main effect (Factor1 and Factor2) and the interaction effect (Factor1
 ). Interpret the p-values to determine if there are significant main effects or interaction effects.
 
-Example: Complete Workflow
+## Example: Complete Workflow
 Here is a complete example that demonstrates one-way ANOVA, two-way ANOVA, and interpretation of results.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import statsmodels.api as sm
@@ -127,4 +131,6 @@ model_two_way = ols('Value ~ Factor1 * Factor2', data=df_two_way).fit()
 anova_table_two_way = sm.stats.anova_lm(model_two_way, typ=2)
 print("Two-Way ANOVA Table:")
 print(anova_table_two_way)
+```
+
 In this chapter, we covered the basics of Analysis of Variance (ANOVA), including one-way ANOVA and two-way ANOVA. We provided examples to demonstrate how to perform these analyses using Python's statsmodels library and how to interpret the results.
