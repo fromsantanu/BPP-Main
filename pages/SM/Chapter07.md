@@ -1,12 +1,11 @@
-Chapter 7: Time Series Analysis
-Time Series Decomposition
+# Chapter 7: Time Series Analysis
+## Time Series Decomposition
 Time series decomposition involves breaking down a time series into its constituent components: trend, seasonal, and residual.
 
-Example: Time Series Decomposition
+### Example: Time Series Decomposition
 Let's use a hypothetical time series dataset to demonstrate decomposition.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -24,12 +23,13 @@ decomposition = seasonal_decompose(df['Value'], model='additive', period=12)
 # Plotting the decomposed components
 decomposition.plot()
 plt.show()
-Autoregressive (AR) Models
+```
+
+## Autoregressive (AR) Models
 Autoregressive (AR) models use the dependency between an observation and a number of lagged observations.
 
-Example: AR Model
-python
-Copy code
+### Example: AR Model
+```python
 from statsmodels.tsa.ar_model import AutoReg
 
 # Creating a sample time series
@@ -52,12 +52,13 @@ plt.plot(df['Value'], label='Original')
 plt.plot(predictions, label='Predicted', color='red')
 plt.legend()
 plt.show()
-Moving Average (MA) Models
+```
+
+## Moving Average (MA) Models
 Moving Average (MA) models use the dependency between an observation and a residual error from a moving average model applied to lagged observations.
 
-Example: MA Model
-python
-Copy code
+### Example: MA Model
+```python
 from statsmodels.tsa.arima.model import ARIMA
 
 # Creating a sample time series
@@ -80,12 +81,13 @@ plt.plot(df['Value'], label='Original')
 plt.plot(predictions, label='Predicted', color='red')
 plt.legend()
 plt.show()
-ARIMA and SARIMA Models
+```
+
+## ARIMA and SARIMA Models
 ARIMA (Autoregressive Integrated Moving Average) models are a generalization of AR and MA models. SARIMA (Seasonal ARIMA) models extend ARIMA by modeling seasonal effects.
 
-Example: ARIMA Model
-python
-Copy code
+### Example: ARIMA Model
+```python
 # Creating a sample time series
 np.random.seed(0)
 data = np.random.randn(100).cumsum() + np.arange(100) * 0.5
@@ -106,9 +108,10 @@ plt.plot(df['Value'], label='Original')
 plt.plot(predictions, label='Predicted', color='red')
 plt.legend()
 plt.show()
-Example: SARIMA Model
-python
-Copy code
+```
+
+### Example: SARIMA Model
+```python
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 
 # Creating a sample time series
@@ -131,12 +134,13 @@ plt.plot(df['Value'], label='Original')
 plt.plot(predictions, label='Predicted', color='red')
 plt.legend()
 plt.show()
-Forecasting and Prediction
+```
+
+## Forecasting and Prediction
 Time series forecasting involves using models to predict future values based on past observations.
 
-Example: Forecasting with ARIMA
-python
-Copy code
+### Example: Forecasting with ARIMA
+```python
 # Creating a sample time series
 np.random.seed(0)
 data = np.random.randn(100).cumsum() + np.arange(100) * 0.5
@@ -154,9 +158,10 @@ plt.plot(df['Value'], label='Original')
 plt.plot(predictions, label='Predicted', color='red')
 plt.legend()
 plt.show()
-Example: Forecasting with SARIMA
-python
-Copy code
+```
+
+### Example: Forecasting with SARIMA
+```python
 # Creating a sample time series
 np.random.seed(0)
 data = np.random.randn(100).cumsum() + np.arange(100) * 0.5
@@ -174,4 +179,6 @@ plt.plot(df['Value'], label='Original')
 plt.plot(predictions, label='Predicted', color='red')
 plt.legend()
 plt.show()
+```
+
 In this chapter, we covered the basics of time series analysis, including decomposition, autoregressive (AR) models, moving average (MA) models, ARIMA and SARIMA models, and forecasting. We provided examples to demonstrate how to perform these analyses using Python's statsmodels library and how to interpret the results.
