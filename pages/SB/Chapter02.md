@@ -62,10 +62,10 @@ plt.title("Box Plot of Total Bill by Day and Smoker")
 plt.show()
 ```
 
-### Customizing Aesthetic Styles
+## Customizing Aesthetic Styles
 In addition to themes, Seaborn allows you to customize various aesthetic properties of your plots, such as color palettes, font sizes, and more.
 
-#### Color Palettes
+### Color Palettes
 Seaborn provides several built-in color palettes that can be used to enhance the appearance of your plots. You can set a color palette using the set_palette function:
 
 ```python
@@ -78,7 +78,7 @@ plt.title("Bar Plot of Total Bill by Day and Sex")
 plt.show()
 ```
 
-#### Font Sizes
+### Font Sizes
 You can control the font sizes of various plot elements using the set_context function:
 
 ```python
