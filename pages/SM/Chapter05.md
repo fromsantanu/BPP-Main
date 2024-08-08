@@ -79,7 +79,7 @@ plt.show()
 
 Poisson regression is used for count data, where the dependent variable represents the number of occurrences of an event. It uses the log link function:
 
-$\[ \log(\mu) = \mathbf{X}\beta \]$
+$\log(\mu) = \mathbf{X}\beta$
 
 Where $\( \mu \)$ is the expected count.
 
