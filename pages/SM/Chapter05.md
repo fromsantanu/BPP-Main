@@ -7,7 +7,7 @@ Generalized Linear Models (GLMs) are an extension of linear regression models th
 - Systematic Component: Linear predictor which is a linear combination of the independent variables.
 - Link Function: Connects the mean of the dependent variable to the linear predictor.
 
-### GLM Formula
+## GLM Formula
 
 The general form of a GLM is:
 
@@ -19,7 +19,7 @@ Where:
 - $\( \mathbf{X} \)$ is the matrix of independent variables.
 - $\( \beta \)$ is the vector of coefficients.
 
-### Logistic Regression
+## Logistic Regression
 
 Logistic regression is a type of GLM used when the dependent variable is binary (0 or 1). It uses the logit link function:
 
@@ -27,11 +27,10 @@ $\[ \text{logit}(\pi) = \log \left( \frac{\pi}{1 - \pi} \right) \]$
 
 Where $\( \pi \)$ is the probability of the dependent variable being 1.
 
-Example: Predicting Binary Outcome
+### Example: Predicting Binary Outcome
 Let's use a hypothetical dataset to demonstrate logistic regression.
 
-python
-Copy code
+```python
 import pandas as pd
 import statsmodels.api as sm
 
@@ -54,9 +53,10 @@ model = sm.Logit(Y, X).fit()
 
 # Summary of the model
 print(model.summary())
-Plotting the Logistic Regression Curve
-python
-Copy code
+```
+
+### Plotting the Logistic Regression Curve
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -73,28 +73,21 @@ plt.ylabel('Probability of Passing')
 plt.title('Logistic Regression')
 plt.legend()
 plt.show()
-Poisson Regression
+```
+
+## Poisson Regression
+
 Poisson regression is used for count data, where the dependent variable represents the number of occurrences of an event. It uses the log link function:
 
-log
-⁡
-(
-𝜇
-)
-=
-𝑋
-𝛽
-log(μ)=Xβ
+$\[ \log(\mu) = \mathbf{X}\beta \]$
 
-Where 
-𝜇
-μ is the expected count.
+Where $\( \mu \)$ is the expected count.
 
-Example: Predicting Count Data
+
+### Example: Predicting Count Data
 Let's use a hypothetical dataset to demonstrate Poisson regression.
 
-python
-Copy code
+```python
 # Example dataset
 data = {
     'Exposure': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
@@ -114,9 +107,10 @@ model = sm.GLM(Y, X, family=sm.families.Poisson()).fit()
 
 # Summary of the model
 print(model.summary())
-Plotting the Poisson Regression Curve
-python
-Copy code
+```
+
+### Plotting the Poisson Regression Curve
+```python
 # Predicting counts
 X_new = np.linspace(0, 10, 100)
 X_new = sm.add_constant(X_new)
@@ -130,11 +124,12 @@ plt.ylabel('Count')
 plt.title('Poisson Regression')
 plt.legend()
 plt.show()
-Example: Complete Workflow
+```
+
+## Example: Complete Workflow
 Here is a complete example that demonstrates logistic regression and Poisson regression.
 
-python
-Copy code
+```python
 import pandas as pd
 import statsmodels.api as sm
 import numpy as np
@@ -207,4 +202,6 @@ plt.ylabel('Count')
 plt.title('Poisson Regression')
 plt.legend()
 plt.show()
+```
+
 In this chapter, we covered the basics of Generalized Linear Models (GLMs), including logistic regression and Poisson regression. We provided examples to demonstrate how to fit these models using Python's statsmodels library, and how to interpret and visualize the results.
