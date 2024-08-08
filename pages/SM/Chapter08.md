@@ -1,15 +1,14 @@
-Chapter 8: Survival Analysis
-Overview of Survival Analysis
+# Chapter 8: Survival Analysis
+## Overview of Survival Analysis
 Survival analysis is a branch of statistics that deals with analyzing the expected duration until one or more events happen, such as death in biological organisms and failure in mechanical systems. This type of analysis is used extensively in medical research, engineering, and social sciences.
 
-Kaplan-Meier Estimator
+## Kaplan-Meier Estimator
 The Kaplan-Meier estimator is a non-parametric statistic used to estimate the survival function from lifetime data.
 
-Example: Kaplan-Meier Estimator
+### Example: Kaplan-Meier Estimator
 Let's use a hypothetical dataset to demonstrate the Kaplan-Meier estimator.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 from lifelines import Kaplan-MeierFitter
@@ -32,12 +31,13 @@ plt.title('Kaplan-Meier Estimate of Survival Function')
 plt.xlabel('Time')
 plt.ylabel('Survival Probability')
 plt.show()
-Cox Proportional Hazards Model
+```
+
+## Cox Proportional Hazards Model
 The Cox Proportional Hazards model is a semiparametric model used to investigate the association between the survival time of patients and one or more predictor variables.
 
-Example: Cox Proportional Hazards Model
-python
-Copy code
+### Example: Cox Proportional Hazards Model
+```python
 from lifelines import CoxPHFitter
 
 # Example dataset
@@ -60,12 +60,13 @@ print(cph.summary)
 cph.plot()
 plt.title('Cox Proportional Hazards Model')
 plt.show()
-Parametric Survival Models
+```
+
+## Parametric Survival Models
 Parametric survival models assume that the survival times follow a specific statistical distribution. Common choices include exponential, Weibull, and log-normal distributions.
 
-Example: Parametric Survival Model (Weibull)
-python
-Copy code
+### Example: Parametric Survival Model (Weibull)
+```python
 from lifelines import WeibullFitter
 
 # Example dataset
@@ -88,9 +89,10 @@ plt.show()
 
 # Summary of the model
 print(wf.summary)
-Example: Parametric Survival Model (Exponential)
-python
-Copy code
+```
+
+### Example: Parametric Survival Model (Exponential)
+```python
 from lifelines import ExponentialFitter
 
 # Example dataset
@@ -113,11 +115,11 @@ plt.show()
 
 # Summary of the model
 print(ef.summary)
-Example: Complete Workflow
+
+## Example: Complete Workflow
 Here is a complete example that demonstrates Kaplan-Meier estimator, Cox Proportional Hazards model, and parametric survival models.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -171,4 +173,6 @@ plt.ylabel('Survival Probability')
 plt.show()
 print("Exponential Model Summary:")
 print(ef.summary)
+```
+
 In this chapter, we covered the basics of survival analysis, including the Kaplan-Meier estimator, Cox Proportional Hazards model, and parametric survival models. We provided examples to demonstrate how to perform these analyses using Python's lifelines library and how to interpret the results.
