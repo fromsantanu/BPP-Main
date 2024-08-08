@@ -81,25 +81,27 @@ df_time_series = pd.DataFrame({
 print(df_time_series)
 ```
 
-Resampling to a lower frequency (downsampling):
+### Resampling to a lower frequency (downsampling):
 
-python
-Copy code
+```python
 # Resampling to monthly frequency and calculating the sum
 df_monthly = df_time_series.resample('M').sum()
 print(df_monthly)
-Resampling to a higher frequency (upsampling):
+```
 
-python
-Copy code
+### Resampling to a higher frequency (upsampling):
+
+```python
 # Resampling to hourly frequency and forward filling missing values
 df_hourly = df_time_series.resample('H').ffill()
 print(df_hourly)
-Frequency conversion:
 
-python
-Copy code
+### Frequency conversion:
+
+```python
 # Converting frequency from daily to weekly and calculating the mean
 df_weekly = df_time_series.asfreq('W', method='pad')
 print(df_weekly)
+```
+
 By the end of this chapter, you should be proficient in manipulating and analyzing date and time data in Pandas. These skills are crucial for handling time series data and performing time-based analysis.
