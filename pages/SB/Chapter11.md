@@ -1,12 +1,11 @@
-Case Studies in Healthcare and Epidemiology
+# Case Studies in Healthcare and Epidemiology
 This chapter focuses on practical applications of Seaborn and Matplotlib for visualizing patient data, analyzing disease spread, and creating custom visualizations for medical research. These case studies will demonstrate how to leverage data visualization tools to gain insights and make data-driven decisions in healthcare and epidemiology.
 
-Visualizing Patient Data
-Case Study 1: Visualizing Blood Pressure Data
+## Visualizing Patient Data
+### Case Study 1: Visualizing Blood Pressure Data
 Blood pressure data is crucial for monitoring patient health. Let's visualize systolic and diastolic blood pressure readings over time for a group of patients.
 
-python
-Copy code
+```python
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -30,12 +29,13 @@ plt.xlabel("Date")
 plt.ylabel("Blood Pressure (mmHg)")
 plt.legend(title="Blood Pressure Type")
 plt.show()
-Analyzing Disease Spread
-Case Study 2: Analyzing COVID-19 Spread
+```
+
+## Analyzing Disease Spread
+### Case Study 2: Analyzing COVID-19 Spread
 Understanding the spread of infectious diseases, such as COVID-19, is essential for public health planning and response. Let's visualize the number of COVID-19 cases over time in different regions.
 
-python
-Copy code
+```python
 # Sample data for COVID-19 cases
 data = {
     "Date": pd.date_range(start="2020-01-01", periods=10),
@@ -53,12 +53,13 @@ plt.xlabel("Date")
 plt.ylabel("Number of Cases")
 plt.legend(title="Region")
 plt.show()
-Custom Visualizations for Medical Research
-Case Study 3: Visualizing Clinical Trial Results
+```
+
+## Custom Visualizations for Medical Research
+### Case Study 3: Visualizing Clinical Trial Results
 Clinical trials generate a vast amount of data that need to be visualized effectively to communicate findings. Let's create a custom visualization to compare the effectiveness of two treatments over time.
 
-python
-Copy code
+```python
 # Sample data for clinical trial results
 data = {
     "Week": list(range(1, 11)) * 2,
@@ -77,12 +78,13 @@ plt.xlabel("Week")
 plt.ylabel("Response Rate")
 plt.legend(title="Treatment")
 plt.show()
-Combining Visualizations for Comprehensive Analysis
-Case Study 4: Dashboard for Patient Monitoring
+```
+
+## Combining Visualizations for Comprehensive Analysis
+### Case Study 4: Dashboard for Patient Monitoring
 Let's create a comprehensive dashboard for monitoring patient data, including blood pressure readings, heart rate, and temperature.
 
-python
-Copy code
+```python
 # Sample data for patient monitoring
 data = {
     "Patient ID": [1, 1, 1, 2, 2, 2, 3, 3, 3],
@@ -126,5 +128,7 @@ ax[1, 1].set_ylabel("Temperature (°F)")
 plt.tight_layout()
 plt.suptitle("Patient Monitoring Dashboard", y=1.02)
 plt.show()
-Conclusion
+```
+
+## Conclusion
 Visualization plays a crucial role in healthcare and epidemiology by providing insights into patient data, disease spread, and clinical trial results. By leveraging Seaborn and Matplotlib, you can create detailed and informative visualizations to enhance data analysis and support decision-making in medical research and public health. This chapter covered various case studies, demonstrating the practical applications of these visualization tools in real-world healthcare scenarios.
