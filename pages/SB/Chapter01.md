@@ -40,7 +40,7 @@ plt.title("Scatter Plot of Total Bill vs Tip")
 plt.show()
 ```
 
-##### This code will generate a scatter plot of total bill amounts against tips, with different colors representing lunch and dinner times.
+This code will generate a scatter plot of total bill amounts against tips, with different colors representing lunch and dinner times.
 
 ## Seaborn vs. Matplotlib: When to Use Which
 Both Seaborn and Matplotlib are excellent libraries for data visualization, but they serve slightly different purposes and have different strengths. Here are some key differences and guidelines on when to use each:
