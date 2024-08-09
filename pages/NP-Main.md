@@ -36,7 +36,7 @@
 ### Array Transposition
 - [transpose, swapaxes, T](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter10.md)
 
-## Statistical and Mathematical Operations ![Static Badge](https://img.shields.io/badge/Work%20In%20Progress-008000)  
+## Statistical and Mathematical Operations
 ### Basic Statistics
 - [sum, mean, median, std, var](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter11.md)
 ### Aggregations
