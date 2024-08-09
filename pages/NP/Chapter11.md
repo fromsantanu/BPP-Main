@@ -85,6 +85,7 @@ var_axis0 = np.var(array_2d, axis=0)  # Variance along columns
 var_axis1 = np.var(array_2d, axis=1)  # Variance along rows
 print("Variance along columns:", var_axis0)
 print("Variance along rows:", var_axis1)
+```
 
 ## Example Code
 Here are comprehensive examples demonstrating the use of sum, mean, median, std, and var:
