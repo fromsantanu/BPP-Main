@@ -3,7 +3,7 @@
 
 Bayesian analysis is a statistical paradigm that involves updating the probability of a hypothesis as more evidence or information becomes available. It is based on Bayes' theorem:
 
-$\[ P(\theta | D) = \frac{P(D | \theta) P(\theta)}{P(D)} \]$
+$P(\theta | D) = \frac{P(D | \theta) P(\theta)}{P(D)}$
 
 Where:
 - $\( P(\theta | D) \)$ is the posterior probability of the parameters given the data.
