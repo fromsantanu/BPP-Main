@@ -1,15 +1,15 @@
-Chapter 21: Integration with Scikit-Learn
-Overview
+# Chapter 21: Integration with Scikit-Learn
+
+## Overview
 This chapter focuses on integrating statsmodels with scikit-learn for hybrid modeling approaches. We will cover how to combine the strengths of both libraries to perform comprehensive data analysis and modeling.
 
-Combining statsmodels and Scikit-Learn
+## Combining statsmodels and Scikit-Learn
 statsmodels provides detailed statistical tests and models, while scikit-learn is a powerful library for machine learning and model evaluation. Combining these two can leverage the strengths of both libraries.
 
-Example: Combining statsmodels and Scikit-Learn for Linear Regression
+### Example: Combining statsmodels and Scikit-Learn for Linear Regression
 Let's use a hypothetical dataset to demonstrate combining statsmodels and scikit-learn for linear regression.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import statsmodels.api as sm
@@ -48,14 +48,15 @@ mse = mean_squared_error(y_test, y_pred)
 r2 = r2_score(y_test, y_pred)
 print(f'Mean Squared Error: {mse}')
 print(f'R-squared: {r2}')
-Hybrid Modeling Approaches
+```
+
+## Hybrid Modeling Approaches
 Hybrid modeling approaches involve combining different types of models to improve performance. For example, you can use statsmodels for statistical modeling and scikit-learn for machine learning.
 
-Example: Hybrid Modeling with Logistic Regression
+### Example: Hybrid Modeling with Logistic Regression
 Let's use a hypothetical dataset to demonstrate hybrid modeling with logistic regression.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import statsmodels.api as sm
@@ -114,11 +115,12 @@ plt.ylabel('True Positive Rate')
 plt.title('Receiver Operating Characteristic (ROC) Curve')
 plt.legend(loc='lower right')
 plt.show()
-Example: Complete Workflow
+```
+
+## Example: Complete Workflow
 Here is a complete example that demonstrates combining statsmodels and scikit-learn for hybrid modeling approaches.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import statsmodels.api as sm
@@ -210,4 +212,6 @@ plt.ylabel('True Positive Rate')
 plt.title('Receiver Operating Characteristic (ROC) Curve')
 plt.legend(loc='lower right')
 plt.show()
+```
+
 In this chapter, we covered the integration of statsmodels with scikit-learn, including combining the strengths of both libraries for hybrid modeling approaches. We provided examples to demonstrate how to perform these tasks using Python's Pandas, statsmodels, and scikit-learn libraries, and how to interpret the results.
