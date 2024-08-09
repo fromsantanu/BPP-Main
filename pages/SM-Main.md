@@ -1,4 +1,4 @@
-## StatModels ![Static Badge](https://img.shields.io/badge/Work%20In%20Progress-008000)
+## StatModels 
 
 ## Introduction to statsmodels
 
