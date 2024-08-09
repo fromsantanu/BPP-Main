@@ -1,12 +1,11 @@
-Aggregations
+# Aggregations
 Aggregations in NumPy allow you to summarize and derive key statistics from your data. This chapter covers some of the most commonly used aggregation functions: min, max, argmin, and argmax.
 
-min
+## min
 The min function returns the minimum value in the array or along a specified axis.
 
-Example
-python
-Copy code
+### Example
+```python
 import numpy as np
 
 # Creating an array
@@ -22,12 +21,13 @@ min_axis0 = np.min(array_2d, axis=0)  # Min along columns
 min_axis1 = np.min(array_2d, axis=1)  # Min along rows
 print("Minimum along columns:", min_axis0)
 print("Minimum along rows:", min_axis1)
-max
+```
+
+## max
 The max function returns the maximum value in the array or along a specified axis.
 
-Example
-python
-Copy code
+### Example
+```python
 # Maximum value in the array
 max_value = np.max(array)
 print("Maximum value:", max_value)
@@ -37,12 +37,13 @@ max_axis0 = np.max(array_2d, axis=0)  # Max along columns
 max_axis1 = np.max(array_2d, axis=1)  # Max along rows
 print("Maximum along columns:", max_axis0)
 print("Maximum along rows:", max_axis1)
-argmin
+```
+
+## argmin
 The argmin function returns the indices of the minimum values in the array or along a specified axis.
 
-Example
-python
-Copy code
+### Example
+```python
 # Index of the minimum value in the array
 argmin_value = np.argmin(array)
 print("Index of minimum value:", argmin_value)
@@ -52,12 +53,13 @@ argmin_axis0 = np.argmin(array_2d, axis=0)  # Index of min along columns
 argmin_axis1 = np.argmin(array_2d, axis=1)  # Index of min along rows
 print("Index of minimum along columns:", argmin_axis0)
 print("Index of minimum along rows:", argmin_axis1)
-argmax
+```
+
+## argmax
 The argmax function returns the indices of the maximum values in the array or along a specified axis.
 
-Example
-python
-Copy code
+### Example
+```python
 # Index of the maximum value in the array
 argmax_value = np.argmax(array)
 print("Index of maximum value:", argmax_value)
@@ -67,11 +69,12 @@ argmax_axis0 = np.argmax(array_2d, axis=0)  # Index of max along columns
 argmax_axis1 = np.argmax(array_2d, axis=1)  # Index of max along rows
 print("Index of maximum along columns:", argmax_axis0)
 print("Index of maximum along rows:", argmax_axis1)
-Example Code
+```
+
+## Example Code
 Here are comprehensive examples demonstrating the use of min, max, argmin, and argmax:
 
-python
-Copy code
+```python
 import numpy as np
 
 # Creating an array
@@ -119,4 +122,6 @@ argmax_axis0 = np.argmax(array_2d, axis=0)  # Index of max along columns
 argmax_axis1 = np.argmax(array_2d, axis=1)  # Index of max along rows
 print("Index of maximum along columns:", argmax_axis0)
 print("Index of maximum along rows:", argmax_axis1)
+```
+
 By using these aggregation functions, you can efficiently summarize and analyze your data arrays in NumPy, providing valuable insights into the distribution and characteristics of your data.
