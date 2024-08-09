@@ -1,15 +1,15 @@
-Chapter 18: Case Studies in Healthcare and Epidemiology
-Overview
+# Chapter 18: Case Studies in Healthcare and Epidemiology
+
+## Overview
 This chapter focuses on applying statistical and data science techniques to healthcare and epidemiology. We will cover analyzing patient data, disease risk modeling, and survival analysis in clinical trials using real-world examples.
 
-Analyzing Patient Data
+## Analyzing Patient Data
 Analyzing patient data involves understanding patterns, trends, and anomalies in the dataset. This can include exploratory data analysis (EDA), visualization, and basic statistical analysis.
 
-Example: Analyzing Patient Data
+### Example: Analyzing Patient Data
 Let's use a hypothetical patient dataset to perform exploratory data analysis and visualization.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -46,12 +46,12 @@ plt.title('Cholesterol vs Blood Pressure')
 plt.show()
 Disease Risk Modeling
 Disease risk modeling involves predicting the likelihood of a disease based on various risk factors using statistical and machine learning models.
+```
 
-Example: Logistic Regression for Disease Risk Modeling
+### Example: Logistic Regression for Disease Risk Modeling
 Let's use a hypothetical dataset to model the risk of heart disease based on age, blood pressure, cholesterol, and diabetes status.
 
-python
-Copy code
+```python
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, roc_curve, auc
@@ -94,14 +94,15 @@ plt.ylabel('True Positive Rate')
 plt.title('Receiver Operating Characteristic (ROC) Curve')
 plt.legend(loc='lower right')
 plt.show()
-Survival Analysis in Clinical Trials
+```
+
+## Survival Analysis in Clinical Trials
 Survival analysis is used to analyze the expected duration until one or more events happen, such as death or failure in clinical trials. It helps in understanding the time-to-event data.
 
-Example: Kaplan-Meier Estimator for Survival Analysis
+### Example: Kaplan-Meier Estimator for Survival Analysis
 Let's use a hypothetical dataset to perform survival analysis using the Kaplan-Meier estimator.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -125,11 +126,12 @@ plt.title('Kaplan-Meier Estimate of Survival Function')
 plt.xlabel('Time')
 plt.ylabel('Survival Probability')
 plt.show()
-Example: Complete Workflow
+```
+
+## Example: Complete Workflow
 Here is a complete example that demonstrates analyzing patient data, disease risk modeling, and survival analysis in clinical trials.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -217,4 +219,6 @@ plt.title('Kaplan-Meier Estimate of Survival Function')
 plt.xlabel('Time')
 plt.ylabel('Survival Probability')
 plt.show()
+```
+
 In this chapter, we covered the basics of case studies in healthcare and epidemiology, including analyzing patient data, disease risk modeling, and survival analysis in clinical trials. We provided examples to demonstrate how to perform these tasks using Python's libraries such as pandas, scikit-learn, and lifelines, and how to interpret the results.
