@@ -1,15 +1,14 @@
-Chapter 9: Mixed Effects Models
-Overview of Mixed Effects Models
+# Chapter 9: Mixed Effects Models
+## Overview of Mixed Effects Models
 Mixed effects models, also known as multilevel models or hierarchical models, are used when data is collected in a grouped or clustered manner. These models account for both fixed effects, which are constant across individuals, and random effects, which vary across individuals or groups.
 
-Linear Mixed Effects Models
+## Linear Mixed Effects Models
 Linear mixed effects models are used for continuous response variables and can account for random intercepts and slopes.
 
-Example: Linear Mixed Effects Model
+### Example: Linear Mixed Effects Model
 Let's use a hypothetical dataset to demonstrate a linear mixed effects model.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -37,14 +36,15 @@ result = model.fit()
 
 # Summary of the model
 print(result.summary())
-Generalized Linear Mixed Effects Models
+```
+
+## Generalized Linear Mixed Effects Models
 Generalized linear mixed effects models (GLMMs) extend linear mixed effects models to handle non-normal response variables, such as binary or count data.
 
-Example: Generalized Linear Mixed Effects Model (Binary Response)
+### Example: Generalized Linear Mixed Effects Model (Binary Response)
 Let's use a hypothetical dataset to demonstrate a GLMM with a binary response variable.
 
-python
-Copy code
+```python
 import statsmodels.api as sm
 from statsmodels.formula.api import mixedlm
 
@@ -69,11 +69,12 @@ result = model.fit()
 
 # Summary of the model
 print(result.summary())
-Example: Generalized Linear Mixed Effects Model (Count Data)
+```
+
+### Example: Generalized Linear Mixed Effects Model (Count Data)
 Let's use a hypothetical dataset to demonstrate a GLMM with count data.
 
-python
-Copy code
+```python
 # Creating a sample dataset
 np.random.seed(0)
 data = {
@@ -95,11 +96,12 @@ result = model.fit()
 
 # Summary of the model
 print(result.summary())
-Example: Complete Workflow
+```
+
+### Example: Complete Workflow
 Here is a complete example that demonstrates both linear and generalized linear mixed effects models.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -170,4 +172,6 @@ model_glmm_count = sm.MixedLM.from_formula('Y ~ X', groups='Group', data=df_glmm
 result_glmm_count = model_glmm_count.fit()
 print("GLMM (Count Data) Summary:")
 print(result_glmm_count.summary())
+```
+
 In this chapter, we covered the basics of mixed effects models, including linear mixed effects models and generalized linear mixed effects models. We provided examples to demonstrate how to fit these models using Python's statsmodels library and how to interpret the results.
