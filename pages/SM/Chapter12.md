@@ -1,15 +1,15 @@
-Chapter 12: Factor Analysis
-Overview of Factor Analysis
+# Chapter 12: Factor Analysis
+
+## Overview of Factor Analysis
 Factor Analysis is a statistical technique used to identify underlying relationships between variables by grouping them into factors. It is widely used in fields like psychology, social sciences, and marketing to reduce the dimensionality of data.
 
-Exploratory Factor Analysis (EFA)
+## Exploratory Factor Analysis (EFA)
 Exploratory Factor Analysis (EFA) is used to discover the underlying structure of a relatively large set of variables. It identifies the number of common factors influencing the data without imposing any preconceived structure on the outcome.
 
-Example: Exploratory Factor Analysis
+### Example: Exploratory Factor Analysis
 Let's use a hypothetical dataset to demonstrate EFA using Python's factor_analyzer library.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -36,14 +36,15 @@ plt.xticks(range(loadings_df.shape[1]), loadings_df.columns, rotation=90)
 plt.yticks(range(loadings_df.shape[0]), loadings_df.index)
 plt.title('Factor Loadings')
 plt.show()
-Confirmatory Factor Analysis (CFA)
+```
+
+## Confirmatory Factor Analysis (CFA)
 Confirmatory Factor Analysis (CFA) is used to test whether a hypothesized factor structure fits the observed data. It is often used in the later stages of research to confirm theories or models.
 
-Example: Confirmatory Factor Analysis
+### Example: Confirmatory Factor Analysis
 Let's use a hypothetical dataset to demonstrate CFA using Python's semopy library.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 from semopy import Model, Optimizer
@@ -72,11 +73,12 @@ import seaborn as sns
 sns.heatmap(loadings, annot=True, cmap='viridis')
 plt.title('Factor Loadings')
 plt.show()
-Example: Complete Workflow
+```
+
+## Example: Complete Workflow
 Here is a complete example that demonstrates both Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA).
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -132,4 +134,6 @@ print(loadings_cfa)
 sns.heatmap(loadings_cfa, annot=True, cmap='viridis')
 plt.title('Factor Loadings (CFA)')
 plt.show()
+```
+
 In this chapter, we covered the basics of Factor Analysis, including Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA). We provided examples to demonstrate how to perform these analyses using Python's factor_analyzer and semopy libraries and how to interpret the factor loadings.
