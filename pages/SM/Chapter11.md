@@ -1,13 +1,13 @@
-Chapter 11: Principal Component Analysis (PCA)
-Overview of PCA
+# Chapter 11: Principal Component Analysis (PCA)
+
+## Overview of PCA
 Principal Component Analysis (PCA) is a dimensionality reduction technique used to reduce the number of variables in a dataset while preserving as much variability as possible. It transforms the original variables into a new set of uncorrelated variables called principal components.
 
-Performing PCA
-Example: Performing PCA
+## Performing PCA
+### Example: Performing PCA
 Let's use a hypothetical dataset to demonstrate PCA using Python's scikit-learn library.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -36,12 +36,13 @@ plt.xlabel('Principal Component 1')
 plt.ylabel('Principal Component 2')
 plt.title('PCA Result')
 plt.show()
-Interpreting PCA Results
-Explained Variance
+```
+
+## Interpreting PCA Results
+### Explained Variance
 The explained variance indicates how much information (variance) can be attributed to each of the principal components.
 
-python
-Copy code
+```python
 # Explained variance
 explained_variance = pca.explained_variance_ratio_
 print(f'Explained variance by component: {explained_variance}')
@@ -52,11 +53,12 @@ plt.xlabel('Principal Component')
 plt.ylabel('Explained Variance Ratio')
 plt.title('Explained Variance by Principal Components')
 plt.show()
-Cumulative Explained Variance
+```
+
+### Cumulative Explained Variance
 The cumulative explained variance shows the total variance explained by the first n principal components.
 
-python
-Copy code
+```python
 # Cumulative explained variance
 cumulative_explained_variance = np.cumsum(explained_variance)
 print(f'Cumulative explained variance: {cumulative_explained_variance}')
@@ -67,11 +69,12 @@ plt.xlabel('Number of Principal Components')
 plt.ylabel('Cumulative Explained Variance')
 plt.title('Cumulative Explained Variance by Principal Components')
 plt.show()
-Principal Component Loadings
+```
+
+### Principal Component Loadings
 The loadings are the weights by which each standardized original variable should be multiplied to get the principal component score.
 
-python
-Copy code
+```python
 # Principal component loadings
 loadings = pca.components_
 loadings_df = pd.DataFrame(loadings, columns=df.columns, index=['Principal Component 1', 'Principal Component 2'])
@@ -84,11 +87,12 @@ plt.xticks(range(len(df.columns)), df.columns, rotation=90)
 plt.yticks(range(len(loadings_df.index)), loadings_df.index)
 plt.title('Principal Component Loadings')
 plt.show()
-Example: Complete Workflow
+```
+
+## Example: Complete Workflow
 Here is a complete example that demonstrates performing PCA and interpreting the results.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -152,4 +156,6 @@ plt.xticks(range(len(df.columns)), df.columns, rotation=90)
 plt.yticks(range(len(loadings_df.index)), loadings_df.index)
 plt.title('Principal Component Loadings')
 plt.show()
+```
+
 In this chapter, we covered the basics of Principal Component Analysis (PCA), including performing PCA and interpreting the results. We provided examples to demonstrate how to perform PCA using Python's scikit-learn library and how to interpret the explained variance, cumulative explained variance, and principal component loadings.
