@@ -1,15 +1,15 @@
-Chapter 20: Integration with Pandas
-Overview
+# Chapter 20: Integration with Pandas
+
+## Overview
 This chapter focuses on integrating statistical modeling with Pandas DataFrames. We will cover using statsmodels with Pandas DataFrames for data manipulation and model fitting.
 
-Using statsmodels with Pandas DataFrames
+## Using statsmodels with Pandas DataFrames
 statsmodels is a powerful library for statistical modeling in Python. It integrates seamlessly with Pandas DataFrames, allowing for easy data manipulation and model fitting.
 
-Example: Linear Regression with Pandas DataFrames
+### Example: Linear Regression with Pandas DataFrames
 Let's use a hypothetical dataset to demonstrate fitting a linear regression model using statsmodels with Pandas DataFrames.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import statsmodels.api as sm
@@ -35,14 +35,15 @@ model = sm.OLS(Y, X).fit()
 
 # Summary of the model
 print(model.summary())
-Data Manipulation and Model Fitting
+```
+
+## Data Manipulation and Model Fitting
 Data manipulation is an essential step before fitting a model. Pandas provides powerful tools for data cleaning, transformation, and aggregation, which can be used in conjunction with statsmodels for model fitting.
 
-Example: Data Manipulation and Model Fitting
+### Example: Data Manipulation and Model Fitting
 Let's use a hypothetical dataset to demonstrate data manipulation and fitting a logistic regression model using statsmodels.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import statsmodels.api as sm
@@ -77,11 +78,12 @@ model = sm.Logit(Y, X).fit()
 
 # Summary of the model
 print(model.summary())
-Example: Data Aggregation and Model Fitting
+```
+
+### Example: Data Aggregation and Model Fitting
 Let's use a hypothetical dataset to demonstrate data aggregation and fitting a linear regression model using statsmodels.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import statsmodels.api as sm
@@ -112,11 +114,12 @@ model = sm.OLS(Y, X).fit()
 
 # Summary of the model
 print(model.summary())
-Example: Complete Workflow
+```
+
+## Example: Complete Workflow
 Here is a complete example that demonstrates using statsmodels with Pandas DataFrames for data manipulation and model fitting.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import statsmodels.api as sm
@@ -201,4 +204,6 @@ model = sm.OLS(Y, X).fit()
 
 # Summary of the model
 print(model.summary())
+```
+
 In this chapter, we covered the integration of statsmodels with Pandas DataFrames, including data manipulation and model fitting. We provided examples to demonstrate how to perform these tasks using Python's Pandas and statsmodels libraries and how to interpret the results.
