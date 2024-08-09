@@ -1,4 +1,4 @@
-Chapter 10: Bayesian Analysis
+# Chapter 10: Bayesian Analysis
 ## Overview of Bayesian Analysis
 
 Bayesian analysis is a statistical paradigm that involves updating the probability of a hypothesis as more evidence or information becomes available. It is based on Bayes' theorem:
@@ -11,14 +11,13 @@ Where:
 - $\( P(\theta) \)$ is the prior probability of the parameters.
 - $\( P(D) \)$ is the marginal likelihood or evidence.
 
-Bayesian Linear Regression
+## Bayesian Linear Regression
 Bayesian linear regression extends traditional linear regression by treating the model parameters as random variables with specified prior distributions.
 
-Example: Bayesian Linear Regression
+### Example: Bayesian Linear Regression
 Let's use a hypothetical dataset to demonstrate Bayesian linear regression using the PyMC3 library.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -59,14 +58,15 @@ print(pm.summary(trace))
 # Plotting the posterior distributions
 pm.plot_posterior(trace)
 plt.show()
-Bayesian Hierarchical Models
+```
+
+## Bayesian Hierarchical Models
 Bayesian hierarchical models are used when data is collected at different levels of hierarchy. These models account for variability at each level.
 
-Example: Bayesian Hierarchical Model
+### Example: Bayesian Hierarchical Model
 Let's use a hypothetical dataset to demonstrate a Bayesian hierarchical model using the PyMC3 library.
 
-python
-Copy code
+```python
 # Creating a sample dataset
 np.random.seed(0)
 group1 = np.random.normal(5, 1, 50)
@@ -99,11 +99,12 @@ print(pm.summary(trace_hierarchical))
 # Plotting the posterior distributions
 pm.plot_posterior(trace_hierarchical)
 plt.show()
-Example: Complete Workflow
+```
+
+### Example: Complete Workflow
 Here is a complete example that demonstrates Bayesian linear regression and a Bayesian hierarchical model.
 
-python
-Copy code
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -175,4 +176,6 @@ print("Bayesian Hierarchical Model Summary:")
 print(pm.summary(trace_hierarchical))
 pm.plot_posterior(trace_hierarchical)
 plt.show()
+```
+
 In this chapter, we covered the basics of Bayesian analysis, including Bayesian linear regression and Bayesian hierarchical models. We provided examples to demonstrate how to perform these analyses using Python's PyMC3 library and how to interpret the results.
