@@ -48,7 +48,7 @@
 - [Inverse (linalg.inv)](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter13.md)
 - [Eigenvalues and eigenvectors (linalg.eig)](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter13.md)
 
-## Working with Random Numbers ![Static Badge](https://img.shields.io/badge/Work%20In%20Progress-008000)  
+## Working with Random Numbers 
 ### Random Number Generation
 - [np.random module](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter14.md)
 - [rand, randn, randint, seed, choice](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter14.md)
