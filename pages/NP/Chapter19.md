@@ -1,12 +1,11 @@
-Masked Arrays
+# Masked Arrays
 Masked arrays in NumPy allow you to handle and operate on arrays that have missing or invalid entries. The numpy.ma module provides tools to create and manipulate masked arrays, making it easier to manage data with missing values.
 
-Creating Masked Arrays
+## Creating Masked Arrays
 You can create masked arrays using the numpy.ma.array function, which allows you to specify an array and a mask. The mask is an array of the same shape as the data array, where True indicates a masked (invalid) value and False indicates a valid value.
 
-Example
-python
-Copy code
+### Example
+```python
 import numpy as np
 import numpy.ma as ma
 
@@ -19,12 +18,13 @@ mask = np.array([False, False, False, True, False])
 # Creating a masked array
 masked_array = ma.array(data, mask=mask)
 print("Masked array:\n", masked_array)
-Using Masked Arrays
+```
+
+## Using Masked Arrays
 You can perform various operations on masked arrays, just like you would with regular NumPy arrays. The operations will automatically ignore the masked values.
 
-Example: Basic Operations
-python
-Copy code
+### Example: Basic Operations
+```python
 # Adding a scalar to the masked array
 added_array = masked_array + 10
 print("Added array:\n", added_array)
@@ -36,12 +36,12 @@ print("Sum (ignores masked values):", sum_value)
 # Calculating the mean (ignores masked values)
 mean_value = ma.mean(masked_array)
 print("Mean (ignores masked values):", mean_value)
-Masking and Unmasking Values
+```
+## Masking and Unmasking Values
 You can mask and unmask values in an existing masked array using the mask attribute.
 
-Example: Masking and Unmasking Values
-python
-Copy code
+### Example: Masking and Unmasking Values
+```python
 # Masking an additional value
 masked_array[1] = ma.masked
 print("Masked array after masking an additional value:\n", masked_array)
@@ -49,6 +49,8 @@ print("Masked array after masking an additional value:\n", masked_array)
 # Unmasking a value
 masked_array[3] = ma.nomask
 print("Masked array after unmasking a value:\n", masked_array)
+```
+
 Creating Masked Arrays from Scratch
 You can also create masked arrays directly from scratch using the numpy.ma.masked_array function.
 
