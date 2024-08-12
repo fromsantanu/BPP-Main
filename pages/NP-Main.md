@@ -75,7 +75,7 @@
 - [Vectorization](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter21.md)
 - [Avoiding loops](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter21.md)
 
-## Practical Applications ![Static Badge](https://img.shields.io/badge/Work%20In%20Progress-008000)  
+## Practical Applications
 ### NumPy in Data Science
 - [Preprocessing data](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter22.md)
 - [Working with large datasets](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter22.md)
