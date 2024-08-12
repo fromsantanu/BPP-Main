@@ -141,11 +141,12 @@ initial_guess = [1, 1]
 # Solving the system of equations
 solution = fsolve(equations, initial_guess)
 print("Solution:", solution)
-Example Code
+```
+
+## Example Code
 Here are comprehensive examples demonstrating numerical simulations and solving equations:
 
-python
-Copy code
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import fsolve
