@@ -1,15 +1,14 @@
-NumPy in Scientific Computing
+# NumPy in Scientific Computing
 NumPy is a powerful library for scientific computing, providing essential tools for numerical simulations and modeling and solving equations. This chapter covers how to use NumPy for these tasks, which are fundamental in various scientific and engineering fields.
 
-Numerical Simulations
+## Numerical Simulations
 Numerical simulations involve using mathematical models to simulate the behavior of complex systems. NumPy provides efficient and flexible tools to perform these simulations.
 
-Example: Simulating Random Walks
+### Example: Simulating Random Walks
 A random walk is a mathematical model for describing a path consisting of a sequence of random steps. This is commonly used in physics, finance, and many other fields.
 
-Example
-python
-Copy code
+#### Example
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -27,12 +26,13 @@ plt.title('1D Random Walk')
 plt.xlabel('Steps')
 plt.ylabel('Position')
 plt.show()
-Example: Simulating a Particle in a 2D Box
+```
+
+### Example: Simulating a Particle in a 2D Box
 Simulating the movement of a particle in a 2D box with reflective boundaries.
 
-Example
-python
-Copy code
+#### Example
+```python
 # Number of steps
 num_steps = 1000
 
@@ -57,27 +57,21 @@ plt.title('Particle in a 2D Box')
 plt.xlabel('X Position')
 plt.ylabel('Y Position')
 plt.show()
-Modeling and Solving Equations
+```
+
+## Modeling and Solving Equations
 NumPy provides tools for modeling and solving various types of equations, including linear equations, differential equations, and more.
 
-Solving Linear Equations
+### Solving Linear Equations
 Solving a system of linear equations can be done efficiently using NumPy's linalg.solve function.
 
-Example: Solving Linear Equations
-𝐴
-𝑥
-=
-𝑏
-Ax=b
+#### Example: Solving Linear Equations
 
-Where 
-𝐴
-A is the coefficient matrix and 
-𝑏
-b is the constant vector.
+$\[ Ax = b \]$
 
-python
-Copy code
+Where \( A \) is the coefficient matrix and \( b \) is the constant vector.
+
+```python
 # Coefficient matrix
 A = np.array([[3, 1], [1, 2]])
 
@@ -87,25 +81,19 @@ b = np.array([9, 8])
 # Solving the system of linear equations
 x = np.linalg.solve(A, b)
 print("Solution:", x)
-Solving Differential Equations
+```
+
+### Solving Differential Equations
+
 Solving ordinary differential equations (ODEs) using numerical methods like Euler's method or more advanced methods provided by SciPy.
 
-Example: Solving an ODE using Euler's Method
-𝑑
-𝑦
-𝑑
-𝑡
-=
-−
-2
-𝑦
-dt
-dy
-​
- =−2y
+#### Example: Solving an ODE using Euler's Method
 
-python
-Copy code
+$\[
+\frac{dy}{dt} = -2y
+\]$
+
+```python
 # Differential equation dy/dt = -2y
 def dy_dt(y, t):
     return -2 * y
@@ -134,11 +122,12 @@ plt.title('Solving ODE using Euler\'s Method')
 plt.xlabel('Time')
 plt.ylabel('y(t)')
 plt.show()
-Example: Solving Systems of Non-linear Equations
+```
+
+### Example: Solving Systems of Non-linear Equations
 Solving systems of non-linear equations can be done using SciPy's fsolve function.
 
-python
-Copy code
+```python
 from scipy.optimize import fsolve
 
 # Defining the system of equations
@@ -234,4 +223,6 @@ def equations(vars):
 initial_guess = [1, 1]
 solution = fsolve(equations, initial_guess)
 print("Solution:", solution)
+```
+
 By using these techniques, you can effectively perform numerical simulations and solve equations in NumPy, enabling powerful and efficient scientific computing.
