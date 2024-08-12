@@ -64,7 +64,7 @@
 ### Structured Arrays
 - [recarray, record](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter18.md)
 
-## Advanced Topics ![Static Badge](https://img.shields.io/badge/Work%20In%20Progress-008000)  
+## Advanced Topics 
 ### Masked Arrays
 - [ma module](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter19.md)
 = [Creating and using masked arrays](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter19.md)
