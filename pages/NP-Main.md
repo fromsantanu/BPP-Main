@@ -55,7 +55,7 @@
 ### Random Distributions
 - [Uniform, normal, binomial, etc.](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter15.md)
 
-## Input/Output with NumPy ![Static Badge](https://img.shields.io/badge/Work%20In%20Progress-008000)  
+## Input/Output with NumPy 
 ### Reading and Writing Array Data
 - [loadtxt, savetxt](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter16.md)
 - [load, save](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP/Chapter16.md)
