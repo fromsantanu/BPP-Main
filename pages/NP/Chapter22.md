@@ -96,12 +96,11 @@ mapped_array = np.memmap('large_data.dat', dtype='float64', mode='r', shape=(100
 print("Memory-mapped array:", mapped_array[:10])
 ```
 
-Chunk Processing
+### Chunk Processing
 Processing data in chunks can help manage memory usage when dealing with large datasets.
 
-Example: Chunk Processing
-python
-Copy code
+#### Example: Chunk Processing
+```python
 # Creating a large array
 large_array = np.random.rand(1000000)
 
@@ -114,11 +113,12 @@ for i in range(num_chunks):
     # Perform operations on the chunk
     chunk_sum = np.sum(chunk)
     print(f"Sum of chunk {i+1}:", chunk_sum)
-Example Code
+```
+
+## Example Code
 Here are comprehensive examples demonstrating preprocessing data and working with large datasets:
 
-python
-Copy code
+```python
 import numpy as np
 
 # Handling Missing Values
@@ -168,5 +168,7 @@ for i in range(num_chunks):
     chunk = large_array[i*chunk_size:(i+1)*chunk_size]
     chunk_sum = np.sum(chunk)
     print(f"Sum of chunk {i+1}:", chunk_sum)
+```
+
 By leveraging these techniques, you can efficiently preprocess data and handle large datasets in NumPy, enabling effective and scalable data analysis.
 
