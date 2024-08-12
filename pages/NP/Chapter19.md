@@ -51,31 +51,32 @@ masked_array[3] = ma.nomask
 print("Masked array after unmasking a value:\n", masked_array)
 ```
 
-Creating Masked Arrays from Scratch
+## Creating Masked Arrays from Scratch
 You can also create masked arrays directly from scratch using the numpy.ma.masked_array function.
 
-Example
-python
-Copy code
+### Example
+```python
 # Creating a masked array with initial data and mask
 data = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 mask = np.array([[False, True, False], [False, False, True], [True, False, False]])
 masked_array_2d = ma.masked_array(data, mask=mask)
 print("2D masked array:\n", masked_array_2d)
-Filling Masked Values
+```
+
+## Filling Masked Values
 You can fill masked values with a specified value using the filled method.
 
-Example
-python
-Copy code
+### Example
+```python
 # Filling masked values with a specified value
 filled_array = masked_array.filled(-999)
 print("Filled array:\n", filled_array)
-Example Code
+```
+
+## Example Code
 Here are comprehensive examples demonstrating the use of masked arrays:
 
-python
-Copy code
+```python
 import numpy as np
 import numpy.ma as ma
 
@@ -118,4 +119,6 @@ print("2D masked array:\n", masked_array_2d)
 # Filling masked values with a specified value
 filled_array = masked_array.filled(-999)
 print("Filled array:\n", filled_array)
+```
+
 By using masked arrays, you can effectively handle and perform computations on datasets that contain missing or invalid values, enabling more robust and accurate data analysis.
