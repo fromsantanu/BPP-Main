@@ -67,7 +67,7 @@ Solving a system of linear equations can be done efficiently using NumPy's linal
 
 #### Example: Solving Linear Equations
 
-$\Ax = b$
+$Ax = b$
 
 Where $\( A \)$ is the coefficient matrix and $\( b \)$ is the constant vector.
 
