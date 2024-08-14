@@ -50,9 +50,9 @@ print(fruit_prices)  # Output: {'apple': 2.5, 'banana': 1.2, 'cherry': 3.0, 'dat
 # Modifying an existing value
 fruit_prices["banana"] = 1.3
 print(fruit_prices)  # Output: {'apple': 2.5, 'banana': 1.3, 'cherry': 3.0, 'date': 1.5}
-4. Removing Dictionary Elements
 ```
-#### You can remove elements from a dictionary using the pop(), popitem(), and del statements, as well as the clear() method.
+## 4. Removing Dictionary Elements
+ You can remove elements from a dictionary using the pop(), popitem(), and del statements, as well as the clear() method.
 
 ### pop()
 The pop() method removes a key-value pair and returns the value.
