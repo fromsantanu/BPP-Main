@@ -10,33 +10,33 @@
 - [Creating a Series](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter02.md)
 - [Accessing data in a Series](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter02.md)
 - [Series operations](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter02.md)
-- [Practice Exercises 2](#)
+- [Practice Exercises 2](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/ex/EX02.md)
 ### DataFrame
 - [Creating a DataFrame](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter03.md)
 - [Accessing data in a DataFrame](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter03.md)
 - [DataFrame operations](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter03.md)
-- [Practice Exercises 3](#)
+- [Practice Exercises 3](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/ex/EX03.md)
 
 ## Data Input and Output
 - [Reading and writing CSV files](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter04.md)
 - [Reading and writing Excel files](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter04.md)
 - [Reading and writing JSON files](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter04.md)
 - [Reading and writing SQL databases](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter04.md)
-- [Practice Exercises 4](#)
+- [Practice Exercises 4](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/ex/EX04.md)
 
 ## Data Inspection
 - [Viewing data (head, tail, sample)](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter05.md)
 - [Getting DataFrame information (info, describe)](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter05.md)
 - [Data selection and filtering](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter05.md)
 - [Indexing and selecting data](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter05.md)
-- [Practice Exercises 5](#)
+- [Practice Exercises 5](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/ex/EX05.md)
 
 ## Data Cleaning
 - [Handling missing data](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter06.md)
 - [Removing duplicates](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter06.md)
 - [Data type conversions](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter06.md)
 - [Renaming columns and indexes](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter06.md)
-- [Practice Exercises 6](#)
+- [Practice Exercises 6](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/ex/EX06.md)
 
 ## Data Transformation
 - [Sorting data](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter07.md)
@@ -44,32 +44,32 @@
 - [Concatenation](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter07.md)
 - [Pivot tables and crosstab](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter07.md)
 - [Melting and stacking](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter07.md)
-- [Practice Exercises 7](#)
+- [Practice Exercises 7](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/ex/EX07.md)
 
 ## Data Aggregation and Grouping
 - [GroupBy operations](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter08.md)
 - [Aggregation functions](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter08.md)
 - [Transformation and filtration](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter08.md)
 - [Applying custom functions with apply](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter08.md)
-- [Practice Exercises 8](#)
+- [Practice Exercises 8](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/ex/EX08.md)
 
 ## Date and Time Manipulation
 - [Working with datetime objects](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter09.md)
 - [Date range generation](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter09.md)
 - [Resampling and frequency conversion](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter09.md)
-- [Practice Exercises 9](#)
+- [Practice Exercises 9](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/ex/EX09.md)
 
 ## Data Visualization with Pandas
 - [Plotting basics](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter10.md)
 - [Line plots, bar plots, histograms, box plots](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter10.md)
 - [Customizing plots](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter10.md)
-- [Practice Exercises 10](#)
+- [Practice Exercises 10](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/ex/EX10.md)
 
 ## Advanced Data Operations
 - [Window functions (rolling, expanding)](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter11.md)
 - [Multi-indexing](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter11.md)
 - [Working with categorical data](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter11.md)
-- [Practice Exercises 11](#)
+- [Practice Exercises 11](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/ex/EX11.md)
 
 ## Performance and Optimization
 - [Memory usage and optimization](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD/Chapter12.md)
