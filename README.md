@@ -27,6 +27,15 @@ A complete case Python programming tutorials which is essential to follow the ac
 - [**Chapter 12** - Important Packages To Know](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Chapter12.md)
 - [Practice Exercises 12](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Ex/EX12.md)
 
+## Python Visualization (Progressive Tutorials)
+- [**Line Chart**](#)
+- [**Bar Chart**](#)
+- [**Pie Chart**](#)
+- [**Histogram**](#)
+- [**Scatter Chart**](#)
+- [**Heatmap**](#)
+- [**Box Plot**](#)
+
 ## Selected Packages
 - [**Numpy**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP-Main.md) 
 - [**Pandas**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD-Main.md)
