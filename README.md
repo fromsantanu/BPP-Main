@@ -28,13 +28,13 @@ A complete case Python programming tutorials which is essential to follow the ac
 - [Practice Exercises 12](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Ex/EX12.md)
 
 ## Python Visualization (Progressive Tutorials)
-- [**Line Chart**](#)
-- [**Bar Chart**](#)
-- [**Pie Chart**](#)
-- [**Histogram**](#)
-- [**Scatter Chart**](#)
-- [**Heatmap**](#)
-- [**Box Plot**](#)
+- [**Line Chart**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/p01.md)
+- [**Bar Chart**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/p02.md)
+- [**Pie Chart**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/p03.md)
+- [**Histogram**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/p04.md)
+- [**Scatter Chart**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/p05.md)
+- [**Heatmap**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/p06.md)
+- [**Box Plot**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/p07.md)
 
 ## Selected Packages
 - [**Numpy**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP-Main.md) 
