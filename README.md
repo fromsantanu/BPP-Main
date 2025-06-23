@@ -57,7 +57,7 @@ A complete case Python programming tutorials which is essential to follow the ac
   - [Using Matplotlib](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/M07.md)
   - [Using Seaborn](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/S07.md)
 - [**Violin Plot**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/p08.md)
-  - [Using Pandas](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/P08.md)
+  - Violin Plot is not supported in Pandas 
   - [Using Matplotlib](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/M08.md)
   - [Using Seaborn](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/S08.md)
   
