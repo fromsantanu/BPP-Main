@@ -28,8 +28,8 @@ A complete case Python programming tutorials which is essential to follow the ac
 - [Practice Exercises 12](https://github.com/fromsantanu/BPP-Main/blob/main/pages/Ex/EX12.md)
 
 ## Python Visualization (Progressive Tutorials)
-- [**Line Chart**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/P01.md)
-  - [Using Pandas](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/M01.md)
+- [**Line Chart**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/p01.md)
+  - [Using Pandas](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/P01.md)
   - [Using Matplotlib](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/M01.md)
   - [Using Seaborn](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/S01.md)
 - [**Bar Chart**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/p02.md)
