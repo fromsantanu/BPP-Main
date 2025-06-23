@@ -42,7 +42,9 @@ A complete case Python programming tutorials which is essential to follow the ac
   - [Using Seaborn](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/S06.md)
 - [**Box Plot**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/p07.md)
   - [Using Seaborn](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/S07.md)
-
+- [**Violin Plot**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/p08.md)
+  - [Using Seaborn](https://github.com/fromsantanu/BPP-Main/blob/main/pages/vsl/S08.md)
+  
 ## Selected Packages
 - [**Numpy**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/NP-Main.md) 
 - [**Pandas**](https://github.com/fromsantanu/BPP-Main/blob/main/pages/PD-Main.md)
